@@ -1,0 +1,393 @@
+--- PAGE 5 ---
+Question ID: 6b8a7c74
+Assessment
+Test
+Domain
+Skill
+Difficulty
+SAT
+Reading and Writing
+Information and Ideas
+Inferences
+Hard
+Question
+One recognized social norm of gift giving is that the time spent obtaining a gift will be viewed as a reflection of the gift’s thoughtfulness.
+Marketing exper ts Farnoush Reshadi, Julian Givi, and Gopal Das addressed this view in their studies of norms specifically surrounding the giving
+of gift cards, noting that while recipients tend to view digital gift cards (which can be purchased online from anywhere and often can be
+redeemed online as well) as superior to physical gift cards (which sometimes must be purchased in person and may only be redeemable in
+person) in terms of usage, 94.8 percent of par ticipants surveyed indicated that it is more socially acceptable to give a physical gift card to a
+recipient. This finding suggests that ______
+Which choice most logically completes the text?
+Answer
+A. gift givers likely overestimate the amount of effor t required to use digital gift cards and thus mistakenly assume gift recipients will view them
+as less desirable than physical gift cards.
+B. physical gift cards are likely preferred by gift recipients because the tangible nature of those cards offers a greater psychological sense of
+ownership than digital gift cards do.
+C. physical gift cards are likely less desirable to gift recipients than digital gift cards are because of the perception that physical gift cards require
+unnecessary effor t to obtain.
+D. gift givers likely perceive digital gift cards as requiring relatively low effor t to obtain and thus wrongly assume gift recipients will appreciate
+them less than they do physical gift cards.
+Correct Answer: D
+Rationale
+Choice D is the best answer because it most logically completes the text’s discussion of perceptions of digital versus physical gift cards. The
+text begins by explaining that the perception of "the time spent obtaining a gift…as a reflection of the gift’s thoughtfulness" is a social norm of
+gift giving. The text then explains that although those who receive digital gift cards view them as easier to use than physical gift cards, a
+marketing study nonetheless showed that 94.8% of par ticipants found physical gift cards more "socially acceptable" to give. The text specifically
+contrasts the ease with which digital gift cards "can be purchased online from anywhere" with the fact that physical gift cards "sometimes must
+be purchased in person"—suggesting the greater difficulty of obtaining physical cards. Given the text’s initial premise that gift-giving norms
+equate the thoughtfulness of a gift with the effor t involved in acquiring that gift, it is reasonable to infer that people perceive digital gift cards as
+requiring less effor t to obtain and thus assume recipients will appreciate them less, even though recipients actually prefer gift cards in the more
+usable digital format.
+Choice A is incorrect. Although the text does discuss recipients’ preference of digital versus physical gift cards and the relative ease with which
+the two formats can be used, it doesn’t consider the misconceptions that gift givers may have of these factors. Moreover, the text establishes
+that recipients regard digital gift cards as easier to use and therefore preferable to physical gift cards. Choice B is incorrect because the text
+doesn’t consider whether recipients of gift cards feel a sense of ownership toward them, nor does the text touch on the greater tangibility of
+physical versus digital gift cards. Instead, the text contrasts the two formats of gift cards in terms of their respective usability and the difficulty
+involved in acquiring them and discusses how those factors influence people’s perceptions of the two formats. Choice C is incorrect because it
+contradicts the text, which explains that recipients regard digital gift cards as superior to physical ones because they are easier to use than
+physical cards, not because physical gift cards require greater effor t to obtain than digital gift cards do. Moreover, the text doesn’t characterize
+the effor t required to obtain physical gift cards as "unnecessary.
+"
+
+
+--- PAGE 6 ---
+Question ID: a15b3219
+Assessment
+Test
+Domain
+Skill
+Difficulty
+SAT
+Reading and Writing
+Information and Ideas
+Command of Evidence
+Hard
+Question
+1,300
+1,200
+1,100
+1,000
+900
+800
+700
+600
+500
+400
+300
+200
+100
+0
+Number of municipalities
+no response
+responded to inquiry
+offered incentive
+Municipalities’ Responses to Inquiries
+about Potential Incentives for Firm
+announcement before election
+announcement after election
+In the United States, firms often seek incentives from municipal governments to expand to those municipalities. A team of political scientists
+hypothesized that municipalities are much more likely to respond to firms and offer incentives if expansions can be announced in time to benefit
+local elected officials than if they can’t. The team contacted officials in thousands of municipalities, inquiring about incentives for a firm looking
+to expand and indicating that the firm would announce its expansion on a date either just before or just after the next election. 
+Which choice best describes data from the graph that weaken the team’s hypothesis?
+Answer
+A. A large majority of the municipalities that received an inquiry mentioning plans for an announcement before the next election didn’t respond to
+the inquiry.
+B. The propor tion of municipalities that responded to the inquiry or offered incentives didn’t substantially differ across the announcement timing
+conditions. 
+
+
+--- PAGE 7 ---
+C. Only around half the municipalities that responded to inquiries mentioning plans for an announcement before the next election offered
+incentives. 
+D. Of the municipalities that received an inquiry mentioning plans for an announcement date after the next election, more than 1,200 didn’t
+respond and only around 100 offered incentives.
+Correct Answer: B
+Rationale
+Choice B is the best answer. The lighter bars show what happened when the announcement was to come before the election, and the darker bars
+show what happened when the announcement was to come after the election. For all three of the outcomes, the light and dark bars are vir tually
+the same, demonstrating that the announcement timing didn’t actually make a difference.
+Choice A is incorrect. This accurately describes some data from the graph, but it doesn’t weaken the hypothesis. It doesn’t include the
+“announcement after election” data for comparison. Choice C is incorrect. This accurately describes some data from the graph, but it doesn’t
+weaken the hypothesis. It doesn’t include the “announcement after election” data for comparison. Choice D is incorrect. This accurately
+describes some data from the graph, but it doesn’t weaken the hypothesis. It doesn’t include the “announcement before election” data for
+comparison.
+
+
+--- PAGE 8 ---
+Question ID: ed314256
+Assessment
+Test
+Domain
+Skill
+Difficulty
+SAT
+Reading and Writing
+Information and Ideas
+Central Ideas and Details
+Hard
+Question
+The most recent iteration of the immersive theater experience Sleep No More, which premiered in New York City in 2011, transforms its
+performance space—a five-story warehouse—into a 1930s-era hotel. Audience members, who wander through the labyrinthine venue at their own
+pace and follow the actors as they play out simultaneous, interweaving narrative loops, confront the impossibility of experiencing the production
+in its entirety. The play’s refusal of narrative coherence thus hinges on the sense of spatial fragmentation that the venue’s immense and intricate
+layout generates.
+What does the text most strongly suggest about Sleep No More’s use of its performance space? 
+Answer
+A. The choice of a New York City venue likely enabled the play’s creators to experiment with the use of theatrical space in a way that venues from
+earlier productions could not. 
+B. Audience members likely find the experience of the play disappointing because they generally cannot make their way through the entire venue.
+C. The production’s dependence on a par ticular performance environment would likely make it difficult to reproduce exactly in a different
+theatrical space. 
+D. Audience members who navigate the space according to a recommended itinerary will likely have a better grasp of the play’s narrative than
+audience members who depar t from that itinerary.
+Correct Answer: C
+Rationale
+Choice C is the best answer. The text says that the production’s use of its large, winding space has a very specific effect on the audience. Given
+that the space itself is so impor tant to creating this effect, it would be difficult to reproduce the production in a different space.
+Choice A is incorrect. The fact that the venue is in New York City isn’t connected to the experimental nature of the performance. It’s the size of
+the venue, not its location in New York, that affects the theatrical experience. Choice B is incorrect. The text never suggests that audience
+members are disappointed because they can’t see the entire production. In fact, it suggests that that’s an impor tant par t of the experience.
+Choice D is incorrect. The text doesn’t mention a recommended itinerary for audience members.
+
+
+--- PAGE 9 ---
+Question ID: 8c1be131
+Assessment
+Test
+Domain
+Skill
+Difficulty
+SAT
+Reading and Writing
+Information and Ideas
+Central Ideas and Details
+Medium
+Question
+During the World War II era, some Mexican American women adopted a striking new look called pachuca style. They wore altered men’s jackets
+or zoot suits (wide-legged, long-coated suits) and dramatic makeup, and they combed their hair into high, rounded shapes. Some people
+criticized pachuca style, saying it was dangerous and women should dress traditionally. But historians see things differently. They see pachuca
+style as a form of rebellion against the era’s rigid social expectations for women. They say that it showed a desire for self-expression and
+freedom on the par t of women who adopted the style.
+According to the text, how do historians view pachuca style?
+Answer
+A. They think that pachuca style was such a popular trend that it continues to influence fashion in the United States to the present day. 
+B. They think that pachuca style was a way for some Mexican American women to express themselves and resist strict social expectations.
+C. They think that pachuca style was celebrated because it enabled some Mexican American women to show their suppor t for the United States
+during World War II.
+D. They think that pachuca style was similar to other fashion trends that different groups of women adopted in the same period. 
+Correct Answer: B
+Rationale
+Choice B is the best answer because it presents a statement about how historians view pachuca style that is suppor ted by the text. The text first
+describes the distinctive pachuca style of dress adopted by some Mexican American women during World War II, saying that some criticized it
+and asser ted that women should dress traditionally. The text then goes on to contrast this position with that of historians, who "see things
+differently": according to these historians, the pachuca style showed a wish for freedom and self-expression, and it acted as a kind of rebellion
+against what society expected of women at the time. Therefore, according to the text, historians think that the pachuca style was a way for
+Mexican women to express themselves and resist strict social expectations.
+Choice A is incorrect because the text explicitly describes the pachuca style as a distinctive look adopted during the World War II era. It does not
+indicate that the pachuca style influences fashion in the United States in the present day. Choice C is incorrect because the text does not indicate
+that Mexican American women wore the pachuca style to show suppor t for the United States during World War II; rather, the style was a means
+of self-expression and rebellion against social expectations. Choice D is incorrect because the text does not compare the pachuca style to other
+fashion trends: the pachuca style is the only style mentioned.
+
+
+--- PAGE 10 ---
+Question ID: 92c2564d
+Assessment
+Test
+Domain
+Skill
+Difficulty
+SAT
+Reading and Writing
+Information and Ideas
+Central Ideas and Details
+Medium
+Question
+Utah is home to Pando, a colony of about 47,000 quaking aspen trees that all share a single root system. Pando is one of the largest single
+organisms by mass on Ear th, but ecologists are worried that its growth is declining in par t because of grazing by animals. The ecologists say
+that strong fences could prevent deer from eating young trees and help Pando star t thriving again.
+According to the text, why are ecologists worried about Pando?
+Answer
+A. It isn’t growing at the same rate it used to.
+B. It isn’t producing young trees anymore.
+C. It can’t grow into new areas because it is blocked by fences.
+D. Its root system can’t suppor t many more new trees.
+Correct Answer: A
+Rationale
+Choice A is the best answer because it presents an explanation that is directly stated in the text for why ecologists are worried about Pando. The
+text states that Pando is a colony of about 47,000 quaking aspen trees that represents one of the largest organisms on Ear th. According to the
+text, ecologists are worried that Pando’s growth is declining, par tly because animals are feeding on the trees. In other words, the ecologists are
+worried that Pando isn’t growing at the same rate it used to.
+Choice B is incorrect. Rather than indicating that Pando isn’t producing young trees anymore, the text reveals that Pando is indeed producing
+young trees, stating that those trees can be protected from grazing deer by strong fences. Choice C is incorrect because the text states that
+fences can be used to prevent deer from eating Pando’s young trees, not that Pando itself can’t grow in new areas because it’s blocked by
+fences. Choice D is incorrect because the text offers no evidence that Pando’s root system is incapable of suppor ting new trees or is otherwise a
+cause of worry for ecologists.
+
+
+--- PAGE 11 ---
+Question ID: 22e4d633
+Assessment
+Test
+Domain
+Skill
+Difficulty
+SAT
+Reading and Writing
+Information and Ideas
+Command of Evidence
+Medium
+Question
+Although many transposons, DNA sequences that move within an organism’s genome through shuffling or duplication, have become corrupted
+and inactive over time, those from the long interspersed nuclear elements (LINE) family appear to remain active in the genomes of some
+species. In humans, they are functionally impor tant within the hippocampus, a brain structure that suppor ts complex cognitive processes. When
+the results of molecular analysis of two species of octopus—an animal known for its intelligence—were announced in 2022, the confirmation of a
+LINE transposon in Octopus vulgaris and Octopus bimaculoides genomes prompted researchers to hypothesize that that transposon family is tied
+to a species’ capacity for advanced cognition.
+Which finding, if true, would most directly suppor t the researchers’ hypothesis?
+Answer
+A. The LINE transposon in O. vulgaris and O. bimaculoides genomes is active in an octopus brain structure that functions similarly to the human
+hippocampus.
+B. The human genome contains multiple transposons from the LINE family that are all primarily active in the hippocampus.
+C. A consistent number of copies of LINE transposons is present across the genomes of most octopus species, with few known corruptions.
+D. O. vulgaris and O. bimaculoides have smaller brains than humans do relative to body size, but their genomes contain sequences from a wider
+variety of transposon families.
+Correct Answer: A
+Rationale
+Choice A is the best answer. The text says that LINE transposons are impor tant in the human hippocampus, which suppor ts complex cognition.
+If the LINE transposon found in octopuses is active in a similar par t of their brain, that would suggest that LINE transposons suppor t complex
+cognition in octopuses too, which in turn suppor ts the hypothesis that LINE transposons are linked to advanced cognition in general.
+Choice B is incorrect. This choice doesn’t suppor t the hypothesis. It doesn’t include anything about how LINE transposons function in species
+other than humans. Choice C is incorrect. This choice doesn’t suppor t the hypothesis. It doesn’t include anything about how the LINE transposon
+in octopuses might suppor t advanced cognition. Choice D is incorrect. This choice doesn’t suppor t the hypothesis. It doesn’t include anything
+about how the LINE transposon in octopuses might suppor t advanced cognition.
+
+
+--- PAGE 12 ---
+Question ID: 458b4a11
+Assessment
+Test
+Domain
+Skill
+Difficulty
+SAT
+Reading and Writing
+Information and Ideas
+Central Ideas and Details
+Hard
+Question
+To understand how temperature change affects microorganism-mediated cycling of soil nutrients in alpine ecosystems, Eva Kaštovská et al.
+collected plant-soil cores in the Tatra Mountains at elevations around 2,100 meters and transplanted them to elevations of 1,700–1,800 meters,
+where the mean air temperature was warmer by 2°C. Microorganism-mediated nutrient cycling was accelerated in the transplanted cores;
+crucially, microorganism community composition was unchanged, allowing Kaštovská et al. to attribute the acceleration to temperature-induced
+increases in microorganism activity. 
+It can most reasonably be inferred from the text that the finding about the microorganism community composition was impor tant for which
+reason?
+Answer
+A. It provided preliminary evidence that microorganism-mediated nutrient cycling was accelerated in the transplanted cores. 
+B. It suggested that temperature-induced changes in microorganism activity may be occurring at increasingly high elevations. 
+C. It ruled out a potential alternative explanation for the acceleration in microorganism-mediated nutrient cycling. 
+D. It clarified that microorganism activity levels in the plant-soil cores varied depending on which microorganisms comprised the community. 
+Correct Answer: C
+Rationale
+Choice C is the best answer because it accurately describes why the finding about the microorganism community composition was impor tant.
+The text describes an experiment by Eva Kaštovská and her team in which they collected plant-soil cores at one elevation and transplanted them
+to sites at a lower elevation, where the mean air temperature was warmer. Kaštovská and her team observed that microorganism-mediated
+nutrient cycling was accelerated in the transplanted cores and that "crucially, microorganism community composition was unchanged,
+" which
+allowed the team to attribute the acceleration to changes in microorganism activity brought about by the difference in temperature. This strongly
+implies that the team wouldn’t have been able to make that attribution otherwise, meaning that a change in microorganism composition
+represented another possible explanation for the acceleration that had to be ruled out.
+Choice A is incorrect. Although the text says microorganism-mediated cycling of soil nutrients increased in the transplanted cores, this is
+unrelated to what’s impor tant about the finding that the microorganism composition didn’t change—that it allowed the team to attribute the
+change in activity solely to the change in temperature. Choice B is incorrect. Although the text compares activity in one core at two different
+elevations, the text doesn’t address changes in activity at various elevations over time. Choice D is incorrect. Although different microorganisms
+likely exhibit different levels of activity, the text indicates that there was no change in microorganism composition, and there is nothing in the text
+about different microorganisms having different activity levels.
+
+
+--- PAGE 13 ---
+Question ID: 0d7f4966
+Assessment
+Test
+Domain
+Skill
+Difficulty
+SAT
+Reading and Writing
+Information and Ideas
+Command of Evidence
+Hard
+Question
+Jean-Bernard Caron and colleagues recently discovered a cache of jellyfish fossils in the Burgess Shale, a site in the Canadian Rockies that is
+rich in fossils from the Cambrian period (over 500 million years ago). Caron and colleagues claim that these are the oldest jellyfish fossils ever
+discovered. In the past twenty years, two sites in China and the United States have yielded fossils of a similar age that some exper ts believe are
+most likely jellyfish due to their shapes and the appearance of projecting tentacles. But Caron and colleagues argue that the apparent tentacles
+are in fact the comb rows of ctenophores, gelatinous animals that are only distantly related to jellyfish.
+Which statement, if true, would most directly weaken the claim by Caron and colleagues about the fossils found in China and the United States?
+Answer
+A. Sites in the Canadian Rockies from later periods than the Cambrian period have yielded fossils that have been conclusively identified as
+ctenophore fossils.
+B. The fossils found in China and the United States are so poorly preserved that though they cannot be conclusively identified as jellyfish, they
+cannot be conclusively identified as ctenophores either.
+C. While ctenophore fossils have been discovered in China and the United States, they have never been discovered in the Burgess Shale.
+D. The fossils discovered by Caron and colleagues in the Burgess Shale were better preserved than the fossils discovered by other researchers in
+China and the United States.
+Correct Answer: B
+Rationale
+Choice B is the best answer because it presents a statement that, if true, would most directly weaken Caron and colleagues’ claim that the
+apparent tentacles in the Chinese and American fossils are actually ctenophore comb rows. If the fossils are so poorly preserved that they
+cannot be conclusively identified as either organism, neither the claim that they are jellyfish nor, as Caron claims, that they are ctenophores
+would be suppor ted.
+Choice A is incorrect. Caron’s claim is that fossils from the US and China are ctenophores, not jellyfish. These fossils are said to be "of a similar
+age" to the Cambrian fossils found in the Canadian Rockies. And nothing in the text or this choice suggests that the presence or absence of
+ctenophores after the Cambrian would have any bearing on whether the Cambrian fossils from the US and China are ctenophores. Choice C is
+incorrect. Caron’s claim is that fossils from the US and China are ctenophores, not jellyfish. Nothing in the text suggests that the presence or
+absence of ctenophores in the Burgess Shale (in Canada) would affect whether the fossils found in the US and China are ctenophores. Choice D
+is incorrect. Caron’s claim is that fossils from the US and China are ctenophores, not jellyfish. Although fossil quality is a plausible issue for the
+research described in the text, nothing in the text or this choice suggests that the fossils from US and China would have been too poorly
+preserved for proper identification.
+
+
+--- PAGE 14 ---
+Question ID: 3543e6e2
+Assessment
+Test
+Domain
+Skill
+Difficulty
+SAT
+Reading and Writing
+Information and Ideas
+Central Ideas and Details
+Easy
+Question
+The following text is from Jane Austen’s 1811 novel Sense and Sensibility. Elinor lives with her younger sisters and her mother, Mrs. Dashwood.
+Elinor, this eldest daughter, whose advice was so effectual, possessed a strength of understanding, and coolness of judgment, which qualified
+her, though only nineteen, to be the counsellor of her mother, and enabled her frequently to counteract, to the advantage of them all, that
+eagerness of mind in Mrs. Dashwood which must generally have led to imprudence. She had an excellent hear t;—her disposition was
+affectionate, and her feelings were strong; but she knew how to govern them: it was a knowledge which her mother had yet to learn; and which
+one of her sisters had resolved never to be taught.
+According to the text, what is true about Elinor?
+Answer
+A. Elinor often argues with her mother but fails to change her mind.
+B. Elinor can be overly sensitive with regard to family matters.
+C. Elinor thinks her mother is a bad role model.
+D. Elinor is remarkably mature for her age.
+Correct Answer: D
+Rationale
+Choice D is the best answer because it provides a detail about Elinor that is established in the text. The text indicates that although Elinor is “only
+nineteen,
+” she gives good advice and exhibits such a high level of understanding and judgment that she serves as “the counsellor of her mother.
+”
+Thus, Elinor is mature beyond her years.   
+Choice A is incorrect because it isn’t suppor ted by the text: although the text says that Elinor advises her mother and often counteracts her
+mother’s impulses, there’s no mention of Elinor arguing with her mother or failing to change her mother’s mind. Choice B is incorrect because it
+isn’t suppor ted by the text: although the text mentions that Elinor has strong feelings, it doesn’t indicate that she’s excessively sensitive when it
+comes to family issues. Choice C is incorrect because it isn’t suppor ted by the text: there’s no mention of what Elinor thinks about her mother
+and no suggestion that she thinks her mother is a bad role model. Because she’s described as having “an excellent hear t,
+” Elinor likely doesn’t
+think ill of her mother.
+
+

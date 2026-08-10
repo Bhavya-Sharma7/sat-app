@@ -1,0 +1,2306 @@
+[
+  {
+    "word": "Abate",
+    "partOfSpeech": "v",
+    "definition": "To become less active, less intense, or less in amount",
+    "example": "As I began my speech, my feelings of nervousness quickly abated."
+  },
+  {
+    "word": "Abrupt",
+    "partOfSpeech": "adj",
+    "definition": "Sudden and unexpected.",
+    "example": "His abrupt departure surprised everyone."
+  },
+  {
+    "word": "Abstract",
+    "partOfSpeech": "adj",
+    "definition": "Existing purely in the mind; not representing actual reality",
+    "example": "Julie had trouble understanding the appeal of the abstract painting."
+  },
+  {
+    "word": "Abysmal",
+    "partOfSpeech": "adj",
+    "definition": "Extremely bad",
+    "example": "I got an abysmal grade on my research paper!"
+  },
+  {
+    "word": "Acceptable",
+    "partOfSpeech": "adj",
+    "definition": "Satisfactory or permissible.",
+    "example": "The teacher deemed Sara's late assignment acceptable."
+  },
+  {
+    "word": "Accidental",
+    "partOfSpeech": "adj",
+    "definition": "Happening by chance.",
+    "example": "The oil spill was purely accidental."
+  },
+  {
+    "word": "Accommodate",
+    "partOfSpeech": "v",
+    "definition": "To provide space or make adjustments.",
+    "example": "The Grand Hotel can accommodate up to 500 guests."
+  },
+  {
+    "word": "Accuracy",
+    "partOfSpeech": "n",
+    "definition": "The quality of being correct or precise.",
+    "example": "The accuracy of the intern's report was impressive."
+  },
+  {
+    "word": "Acknowledge",
+    "partOfSpeech": "v",
+    "definition": "To recognize or admit the truth.",
+    "example": "She refused to acknowledge her mistake."
+  },
+  {
+    "word": "Acquired",
+    "partOfSpeech": "adj",
+    "definition": "Gained through effort or experience.",
+    "example": "Edmund had acquired a taste for fine wine."
+  },
+  {
+    "word": "Adapt",
+    "partOfSpeech": "v",
+    "definition": "To adjust to new conditions.",
+    "example": "Newly-released animals generally adapt to their environments over time."
+  },
+  {
+    "word": "Adept",
+    "partOfSpeech": "adj",
+    "definition": "Having knowledge or skill (usu. in a particular area)",
+    "example": "Beth loves playing the piano, but she's especially adept at the violin."
+  },
+  {
+    "word": "Adequate",
+    "partOfSpeech": "adj",
+    "definition": "Having sufficient qualifications to meet a specific task or purpose",
+    "example": "Though his resume was adequate,the company doubted whether he'd be a good fit."
+  },
+  {
+    "word": "Adhere",
+    "partOfSpeech": "v",
+    "definition": "To stick to or follow closely.",
+    "example": "You must adhere to the rules if you don't want to get in trouble."
+  },
+  {
+    "word": "Adjust",
+    "partOfSpeech": "v",
+    "definition": "To modify or change slightly.",
+    "example": "He had to adjust his seat for comfort."
+  },
+  {
+    "word": "Admire",
+    "partOfSpeech": "v",
+    "definition": "To respect or look up to.",
+    "example": "I admire my mother's dedication to her work."
+  },
+  {
+    "word": "Advantageous",
+    "partOfSpeech": "adj",
+    "definition": "Beneficial or useful.",
+    "example": "Speaking multiple languages is advantageous."
+  },
+  {
+    "word": "Advent",
+    "partOfSpeech": "n",
+    "definition": "The arrival or creation of something",
+    "example": "The world has never been the same since the advent of the light bulb."
+  },
+  {
+    "word": "Advise",
+    "partOfSpeech": "v",
+    "definition": "To recommend or give guidance.",
+    "example": "I advise you to study for the exam."
+  },
+  {
+    "word": "Aggravate",
+    "partOfSpeech": "v",
+    "definition": "To worsen or intensify.",
+    "example": "Scratching the rash will only aggravate it."
+  },
+  {
+    "word": "Aggressive",
+    "partOfSpeech": "adj",
+    "definition": "Forceful or overly assertive.",
+    "example": "The man's aggressive tone made everyone uneasy."
+  },
+  {
+    "word": "Allude",
+    "partOfSpeech": "v",
+    "definition": "To make a secretive mention of something",
+    "example": "She alluded to the problem at hand but didn't say anything more about it."
+  },
+  {
+    "word": "Ambiguity",
+    "partOfSpeech": "n",
+    "definition": "Uncertainty or multiple interpretations.",
+    "example": "The ambiguity in his vague statement caused confusion."
+  },
+  {
+    "word": "Ambivalence",
+    "partOfSpeech": "n",
+    "definition": "Mixed or conflicting feelings.",
+    "example": "Jessie felt ambivalence about moving to a new city."
+  },
+  {
+    "word": "Ameliorate",
+    "partOfSpeech": "v",
+    "definition": "To improve or make better.",
+    "example": "The new policy aims to ameliorate working conditions for all employees."
+  },
+  {
+    "word": "Amplify",
+    "partOfSpeech": "v",
+    "definition": "To increase in size or effect.",
+    "example": "The microphone will amplify your voice."
+  },
+  {
+    "word": "Amusing",
+    "partOfSpeech": "adj",
+    "definition": "Entertaining or humorous.",
+    "example": "Jason's joke was quite amusing."
+  },
+  {
+    "word": "Analogous",
+    "partOfSpeech": "adj",
+    "definition": "Similar but not identical",
+    "example": "Green onions are considered analogous to spring onions."
+  },
+  {
+    "word": "Annotate",
+    "partOfSpeech": "v",
+    "definition": "To add notes or comments.",
+    "example": "Please annotate the medical text with your observations."
+  },
+  {
+    "word": "Announce",
+    "partOfSpeech": "v",
+    "definition": "To make a public statement.",
+    "example": "The CEO will announce the new policy tomorrow."
+  },
+  {
+    "word": "Anomaly",
+    "partOfSpeech": "n",
+    "definition": "Something different from the norm",
+    "example": "This result is an anomaly and very rarely happens."
+  },
+  {
+    "word": "Antagonistic",
+    "partOfSpeech": "adj",
+    "definition": "Showing hostility or opposition.",
+    "example": "His antagonistic behavior created tension at work."
+  },
+  {
+    "word": "Antecedent",
+    "partOfSpeech": "n",
+    "definition": "A preceding event or condition.",
+    "example": "The antecedent to the war was political unrest."
+  },
+  {
+    "word": "Anticipate",
+    "partOfSpeech": "v",
+    "definition": "To expect or predict.",
+    "example": "Does the weatherman anticipate a rise in temperatures next week?"
+  },
+  {
+    "word": "Antipathy",
+    "partOfSpeech": "n",
+    "definition": "A strong feeling of dislike",
+    "example": "Her antipathy toward the professor was obvious: she rolled her eyes whenever he entered the classroom."
+  },
+  {
+    "word": "Apex",
+    "partOfSpeech": "n",
+    "definition": "The highest point of something",
+    "example": "The spring play was the apex of our school year."
+  },
+  {
+    "word": "Appropriate",
+    "partOfSpeech": "adj",
+    "definition": "Suitable for a specific situation.",
+    "example": "Lily's velvet dress was appropriate for the formal occasion."
+  },
+  {
+    "word": "Approximate",
+    "partOfSpeech": "adj",
+    "definition": "Nearly accurate or close to.",
+    "example": "The approximate cost is $50."
+  },
+  {
+    "word": "Arcane",
+    "partOfSpeech": "adj",
+    "definition": "Mysterious or known by few.",
+    "example": "The ancient book contained arcane knowledge."
+  },
+  {
+    "word": "Arduous",
+    "partOfSpeech": "adj",
+    "definition": "Difficult and requiring effort.",
+    "example": "The steep hike up the mountain was arduous."
+  },
+  {
+    "word": "Assemble",
+    "partOfSpeech": "v",
+    "definition": "To gather or put together.",
+    "example": "We need to assemble the bed if we want a place to sleep tonight."
+  },
+  {
+    "word": "Austere",
+    "partOfSpeech": "adj",
+    "definition": "Extremely plain\\adj.stern and forbidding\\adj.relating to self-denial",
+    "example": "He lived in a small,austere cabin in the middle of the woods.\\My boss had an austere expression on her face.\\An austere lifestyle, like that of monks, isn't for everybody."
+  },
+  {
+    "word": "Avoid",
+    "partOfSpeech": "v",
+    "definition": "To stay away from or prevent.",
+    "example": "Mara hates fighting, so she always tries to avoid conflict."
+  },
+  {
+    "word": "Beneficial",
+    "partOfSpeech": "adj",
+    "definition": "Producing good results.",
+    "example": "A balanced diet is beneficial to your health."
+  },
+  {
+    "word": "Benevolent",
+    "partOfSpeech": "adj",
+    "definition": "Kind, generous",
+    "example": "Many cultures believe in benevolents pirits."
+  },
+  {
+    "word": "Bold",
+    "partOfSpeech": "adj",
+    "definition": "Courageous or striking.",
+    "example": "Elsie made a bold move by quitting her job."
+  },
+  {
+    "word": "Borrow",
+    "partOfSpeech": "v",
+    "definition": "To take temporarily.",
+    "example": "Libraries will let you borrow books for several weeks."
+  },
+  {
+    "word": "Buttress",
+    "partOfSpeech": "v",
+    "definition": "To support or strengthen.",
+    "example": "The evidence will buttress his argument."
+  },
+  {
+    "word": "Bypass",
+    "partOfSpeech": "v",
+    "definition": "To go around or avoid.",
+    "example": "We took a shortcut to bypass traffic."
+  },
+  {
+    "word": "Calibrate",
+    "partOfSpeech": "v",
+    "definition": "To adjust for precision.",
+    "example": "The scientist had to calibrate the instrument to ensure his measurements were accurate."
+  },
+  {
+    "word": "Candid",
+    "partOfSpeech": "adj",
+    "definition": "Direct, blunt",
+    "example": "Josh is candid about his desire to become an actor."
+  },
+  {
+    "word": "Carelessly",
+    "partOfSpeech": "adv",
+    "definition": "Without caution.",
+    "example": "He carelessly left his keys on the bus."
+  },
+  {
+    "word": "Catastrophic",
+    "partOfSpeech": "adj",
+    "definition": "Disastrous or causing great damage.",
+    "example": "The catastrophic hurricane destroyed dozens of homes."
+  },
+  {
+    "word": "Cause",
+    "partOfSpeech": "n",
+    "definition": "A reason for an action or event.",
+    "example": "The fire's cause is still unknown."
+  },
+  {
+    "word": "Characterization",
+    "partOfSpeech": "n",
+    "definition": "The way a character is described.",
+    "example": "The novel's characterization was deep and complex."
+  },
+  {
+    "word": "Circumvent",
+    "partOfSpeech": "v",
+    "definition": "To find a way around.",
+    "example": "They found a loophole to circumvent the rule."
+  },
+  {
+    "word": "Coincidence",
+    "partOfSpeech": "n",
+    "definition": "A surprising and unexpected event.",
+    "example": "Meeting my neighbor at the airport was a coincidence."
+  },
+  {
+    "word": "Collaboration",
+    "partOfSpeech": "n",
+    "definition": "Working together on a task.",
+    "example": "The scientists'collaboration led to a breakthrough."
+  },
+  {
+    "word": "Commercialization",
+    "partOfSpeech": "n",
+    "definition": "The process of making something a business.",
+    "example": "The commercialization of the product increased sales."
+  },
+  {
+    "word": "Committed",
+    "partOfSpeech": "adj",
+    "definition": "Dedicated to a cause or task.",
+    "example": "Ava is committed to her studies and always wants top grades."
+  },
+  {
+    "word": "Common",
+    "partOfSpeech": "adj",
+    "definition": "Occurring frequently or shared.",
+    "example": "It's very common for students to feel stressed before exams."
+  },
+  {
+    "word": "Compelling",
+    "partOfSpeech": "adj",
+    "definition": "Captivating or persuasive.",
+    "example": "The debater gave a compelling argument."
+  },
+  {
+    "word": "Competent",
+    "partOfSpeech": "adj",
+    "definition": "Having the necessary ability or skill.",
+    "example": "Noah has worked at this job for a long time and is a competent engineer."
+  },
+  {
+    "word": "Complementary",
+    "partOfSpeech": "adj",
+    "definition": "Enhancing or completing another.",
+    "example": "The artist and the engineer have skills that are complementary in the project."
+  },
+  {
+    "word": "Complexity",
+    "partOfSpeech": "n",
+    "definition": "The state of being intricate or complicated.",
+    "example": "The complexity of the 1,000 piece puzzle made it challenging."
+  },
+  {
+    "word": "Compose",
+    "partOfSpeech": "v",
+    "definition": "To create or write.",
+    "example": "Jordan plans to compose a new symphony."
+  },
+  {
+    "word": "Compound",
+    "partOfSpeech": "v",
+    "definition": "To intensify or combine.",
+    "example": "The traffic was compounded by bad weather."
+  },
+  {
+    "word": "Comprise",
+    "partOfSpeech": "v",
+    "definition": "To consist of or include.",
+    "example": "The book comprises ten chapters."
+  },
+  {
+    "word": "Conceal",
+    "partOfSpeech": "v",
+    "definition": "To hide or keep secret.",
+    "example": "Luca tried to conceal his disappointment."
+  },
+  {
+    "word": "Concede",
+    "partOfSpeech": "v",
+    "definition": "To admit or yield.",
+    "example": "She conceded that she was wrong during the argument."
+  },
+  {
+    "word": "Conceptualize",
+    "partOfSpeech": "v",
+    "definition": "To form an idea or concept.",
+    "example": "In this lab, scientists conceptualize new theories on viruses."
+  },
+  {
+    "word": "Concerning",
+    "partOfSpeech": "adj",
+    "definition": "Causing worry or distress.",
+    "example": "The news about the approaching hurricane is quite concerning."
+  },
+  {
+    "word": "Condition",
+    "partOfSpeech": "n",
+    "definition": "The state of something.",
+    "example": "The car I bought is in excellent condition."
+  },
+  {
+    "word": "Confident",
+    "partOfSpeech": "adj",
+    "definition": "Feeling sure or self-assured.",
+    "example": "Michael Jordan is confident in his abilities as a basketball player."
+  },
+  {
+    "word": "Conflated",
+    "partOfSpeech": "adj",
+    "definition": "Combined in a misleading way.",
+    "example": "The two issues were conflated in the argument."
+  },
+  {
+    "word": "Conform",
+    "partOfSpeech": "v",
+    "definition": "To comply with rules or expectations.",
+    "example": "The alternative rocker refuses to conform to societal norms."
+  },
+  {
+    "word": "Consensus",
+    "partOfSpeech": "n",
+    "definition": "General agreement.",
+    "example": "The team finally reached a consensus on the decision."
+  },
+  {
+    "word": "Consistent",
+    "partOfSpeech": "adj",
+    "definition": "Acting in the same way over time.",
+    "example": "My grandmother's knitting is always consistent in quality."
+  },
+  {
+    "word": "Conspicuous",
+    "partOfSpeech": "adj",
+    "definition": "Easily noticed or standing out.",
+    "example": "Veronica's red dress was conspicuous in the crowd."
+  },
+  {
+    "word": "Constant",
+    "partOfSpeech": "adj",
+    "definition": "Occurring continuously.",
+    "example": "The criminal lived in constant fear that he'd be found out."
+  },
+  {
+    "word": "Contentious",
+    "partOfSpeech": "adj",
+    "definition": "Causing disagreement or debate.",
+    "example": "Politics are highly contentious these days."
+  },
+  {
+    "word": "Contingent",
+    "partOfSpeech": "adj",
+    "definition": "Dependent on something else.",
+    "example": "Our family ski trip is contingent onthe weather."
+  },
+  {
+    "word": "Contradict",
+    "partOfSpeech": "v",
+    "definition": "To be in contrast with",
+    "example": "The camera footage contradicts his alibi."
+  },
+  {
+    "word": "Contrived",
+    "partOfSpeech": "adj",
+    "definition": "Artificial or overly planned.",
+    "example": "The movie's plot felt contrived and unrealistic."
+  },
+  {
+    "word": "Controversial",
+    "partOfSpeech": "adj",
+    "definition": "Causing public disagreement.",
+    "example": "The judge's decision to free the criminal was highly controversial."
+  },
+  {
+    "word": "Cordially",
+    "partOfSpeech": "adv",
+    "definition": "In a warm or friendly manner.",
+    "example": "The two old friends greeted each other cordially."
+  },
+  {
+    "word": "Corroborate",
+    "partOfSpeech": "v",
+    "definition": "To provide evidence for; to back up (a claim)",
+    "example": "The note signed by her father corroborates her claim that she was absent from class that day."
+  },
+  {
+    "word": "Corrosive",
+    "partOfSpeech": "adj",
+    "definition": "Gradually destructive or harmful",
+    "example": "The corrosive chemical has ruined the paint on my car."
+  },
+  {
+    "word": "Costly",
+    "partOfSpeech": "adj",
+    "definition": "Expensive or requiring sacrifice.",
+    "example": "The mistake was a costly one and caused the company to go bankrupt."
+  },
+  {
+    "word": "Counteract",
+    "partOfSpeech": "v",
+    "definition": "To work in opposition to",
+    "example": "This ingredient seems to counteract the other ones."
+  },
+  {
+    "word": "Critical",
+    "partOfSpeech": "adj",
+    "definition": "Expressing analysis or judgment.",
+    "example": "The review was highly critical of the film."
+  },
+  {
+    "word": "Criticize",
+    "partOfSpeech": "v",
+    "definition": "To express disapproval.",
+    "example": "My father tends to criticize others harshly."
+  },
+  {
+    "word": "Deceptive",
+    "partOfSpeech": "adj",
+    "definition": "Misleading or dishonest.",
+    "example": "The advertisement was deceptive in its claims of weight loss."
+  },
+  {
+    "word": "Deciding",
+    "partOfSpeech": "adj",
+    "definition": "Determining or influencing an outcome.",
+    "example": "The final goal was the deciding factor in the match."
+  },
+  {
+    "word": "Decisive",
+    "partOfSpeech": "adj",
+    "definition": "Conclusive or firm.",
+    "example": "My boss's decisive leadership helped solve our company's crisis."
+  },
+  {
+    "word": "Deficient",
+    "partOfSpeech": "adj",
+    "definition": "Not enough in degree or amount",
+    "example": "I feel as though the sources for my paper are deficient."
+  },
+  {
+    "word": "Defunct",
+    "partOfSpeech": "adj",
+    "definition": "No longer existing or functional.",
+    "example": "After people stopped using fax machines, the fax company became defunct."
+  },
+  {
+    "word": "Delegate",
+    "partOfSpeech": "v",
+    "definition": "To assign tasks or authority to others.",
+    "example": "A good leader knows how to delegate responsibilities."
+  },
+  {
+    "word": "Deliberation",
+    "partOfSpeech": "n",
+    "definition": "Careful consideration or discussion.",
+    "example": "After much deliberation, they made their decision."
+  },
+  {
+    "word": "Delicate",
+    "partOfSpeech": "adj",
+    "definition": "Fragile or requiring careful handling.",
+    "example": "The delicate glass sculpture broke easily."
+  },
+  {
+    "word": "Demarcate",
+    "partOfSpeech": "v",
+    "definition": "To set boundaries or distinguish.",
+    "example": "The Tornio river demarcates the border between Sweden and Finland."
+  },
+  {
+    "word": "Derived",
+    "partOfSpeech": "adj",
+    "definition": "Obtained or developed from a source.",
+    "example": "The word \"aqua\" is derived from Latin."
+  },
+  {
+    "word": "Despise",
+    "partOfSpeech": "v",
+    "definition": "To strongly dislike or look down upon.",
+    "example": "The judge despises dishonesty."
+  },
+  {
+    "word": "Desultory",
+    "partOfSpeech": "adj",
+    "definition": "Lacking a clear plan or enthusiasm.",
+    "example": "The tired boy's desultory efforts did not impress the coach."
+  },
+  {
+    "word": "Determine",
+    "partOfSpeech": "v",
+    "definition": "To establish or decide.",
+    "example": "The final exam will determine your grade."
+  },
+  {
+    "word": "Deviate",
+    "partOfSpeech": "v",
+    "definition": "To move away from a set path or norm.",
+    "example": "When the new evidence was uncovered the lawyer deviated from the original plan."
+  },
+  {
+    "word": "Devise",
+    "partOfSpeech": "v",
+    "definition": "To come up with (a plan)",
+    "example": "Lana devised a plan to make herself famous."
+  },
+  {
+    "word": "Diminish",
+    "partOfSpeech": "v",
+    "definition": "To decrease in size or importance.",
+    "example": "The politician's influence has diminished over time."
+  },
+  {
+    "word": "Directed",
+    "partOfSpeech": "adj",
+    "definition": "Managed or guided.",
+    "example": "This new film was directed by a renowned artist."
+  },
+  {
+    "word": "Disagreement",
+    "partOfSpeech": "n",
+    "definition": "A difference of opinion.",
+    "example": "An intense disagreement arose over the contract terms."
+  },
+  {
+    "word": "Disastrous",
+    "partOfSpeech": "adj",
+    "definition": "Causing great harm or failure.",
+    "example": "The earthquake had disastrous consequences for the island."
+  },
+  {
+    "word": "Disconcerting",
+    "partOfSpeech": "adj",
+    "definition": "Causing discomfort or confusion.",
+    "example": "My girlfriend's sudden change in behavior is disconcerting."
+  },
+  {
+    "word": "Discord",
+    "partOfSpeech": "n",
+    "definition": "Disagreement",
+    "example": "Disputes over money caused intense discord in the family."
+  },
+  {
+    "word": "Discount",
+    "partOfSpeech": "v",
+    "definition": "To disregard or reduce in value.",
+    "example": "The teacher discounted his students' concerns."
+  },
+  {
+    "word": "Discourage",
+    "partOfSpeech": "v",
+    "definition": "To dissuade or deter.",
+    "example": "Luna tried to discourage her brother from moving out of the house."
+  },
+  {
+    "word": "Discretion",
+    "partOfSpeech": "n",
+    "definition": "The ability to make responsible choices.",
+    "example": "The detective handled the matter with great discretion."
+  },
+  {
+    "word": "Disengage",
+    "partOfSpeech": "v",
+    "definition": "To separate or withdraw.",
+    "example": "I was exhausted, so I tried to disengage from the argument."
+  },
+  {
+    "word": "Dismiss",
+    "partOfSpeech": "v",
+    "definition": "To reject or send away.",
+    "example": "The teacher dismissed the idea to end class early."
+  },
+  {
+    "word": "Disorienting",
+    "partOfSpeech": "adj",
+    "definition": "Causing confusion or loss of direction.",
+    "example": "The vast corn maze was disorienting."
+  },
+  {
+    "word": "Disparage",
+    "partOfSpeech": "v",
+    "definition": "To belittle or speak negatively about.",
+    "example": "The politician disparaged his opponent's ideas on tax cuts."
+  },
+  {
+    "word": "Disparate",
+    "partOfSpeech": "adj",
+    "definition": "Essentially different or unconnected.",
+    "example": "Many European countries have disparate Christmas traditions."
+  },
+  {
+    "word": "Dispute",
+    "partOfSpeech": "n",
+    "definition": "A disagreement or argument.",
+    "example": "The neighbors had a dispute over the new fence."
+  },
+  {
+    "word": "Distinct",
+    "partOfSpeech": "adj",
+    "definition": "Clearly different or separate.",
+    "example": "My twin sons have distinct personalities."
+  },
+  {
+    "word": "Distract",
+    "partOfSpeech": "v",
+    "definition": "To divert attention.",
+    "example": "The rattling noise distracted Javi from his work."
+  },
+  {
+    "word": "Distressed",
+    "partOfSpeech": "adj",
+    "definition": "Suffering from anxiety or pain.",
+    "example": "The woman looked distressed after the doctor's call."
+  },
+  {
+    "word": "Diverge",
+    "partOfSpeech": "v",
+    "definition": "To move apart or differ.",
+    "example": "My parents' opinions on politics began to diverge as they grew older."
+  },
+  {
+    "word": "Diverse",
+    "partOfSpeech": "adj",
+    "definition": "Showing variety or differences.",
+    "example": "New York City has a diverse population."
+  },
+  {
+    "word": "Dominance",
+    "partOfSpeech": "n",
+    "definition": "The state of being in control or superior.",
+    "example": "The company's dominance in the market is evident."
+  },
+  {
+    "word": "Dormant",
+    "partOfSpeech": "adj",
+    "definition": "Inactive but capable of becoming active.",
+    "example": "The volcano beneath Mount Fuji has been dormant for centuries."
+  },
+  {
+    "word": "Dynamic",
+    "partOfSpeech": "adj",
+    "definition": "Constantly changing or energetic.",
+    "example": "My coworker is a dynamics peaker who commands attention wherever she goes."
+  },
+  {
+    "word": "Earnest",
+    "partOfSpeech": "adj",
+    "definition": "Serious and sincere.",
+    "example": "He felt terrible about breaking the mirror and made an earnest apology."
+  },
+  {
+    "word": "Eclipse",
+    "partOfSpeech": "v",
+    "definition": "To overshadow or surpass.",
+    "example": "The headliner's performance eclipsed all others in the concert."
+  },
+  {
+    "word": "Eloquent",
+    "partOfSpeech": "adj",
+    "definition": "Having refined or expressive communication skills (in speaking or writing)",
+    "example": "His speech was not only eloquent but also extremely compelling."
+  },
+  {
+    "word": "Elusive",
+    "partOfSpeech": "adj",
+    "definition": "Hard to find or understand.",
+    "example": "Nothing became clearer, and the answer remained elusive."
+  },
+  {
+    "word": "Encompass",
+    "partOfSpeech": "v",
+    "definition": "To include or surround.",
+    "example": "The project encompass esmultiple disciplines."
+  },
+  {
+    "word": "Encounter",
+    "partOfSpeech": "v",
+    "definition": "To meet or face unexpectedly.",
+    "example": "She encountered an old friend at the store."
+  },
+  {
+    "word": "Encourage",
+    "partOfSpeech": "v",
+    "definition": "To support or inspire.",
+    "example": "Teachers often encourages tudents to ask questions."
+  },
+  {
+    "word": "Enduring",
+    "partOfSpeech": "adj",
+    "definition": "Lasting over time.",
+    "example": "Their 50-year friendship is enduring."
+  },
+  {
+    "word": "Evidence",
+    "partOfSpeech": "n",
+    "definition": "Information that supports a conclusion.",
+    "example": "There is strong evidence to support the theory."
+  },
+  {
+    "word": "Evoke",
+    "partOfSpeech": "v",
+    "definition": "To draw forth or call up",
+    "example": "Horror movies are great at evoking fear."
+  },
+  {
+    "word": "Exacerbate",
+    "partOfSpeech": "v",
+    "definition": "To make a problem worse.",
+    "example": "His rude comments only exacerbated the tense situation."
+  },
+  {
+    "word": "Exactitude",
+    "partOfSpeech": "n",
+    "definition": "The quality of being precise or accurate.",
+    "example": "The scientist's exactitude ensured reliable results."
+  },
+  {
+    "word": "Exaggerate",
+    "partOfSpeech": "v",
+    "definition": "To overstate or magnify beyond the truth.",
+    "example": "My cousin tends to exaggerate his achievements."
+  },
+  {
+    "word": "Exceed",
+    "partOfSpeech": "v",
+    "definition": "To go beyond a limit.",
+    "example": "The driver exceeded the speed limit by nearly 30 miles an hour."
+  },
+  {
+    "word": "Exemplify",
+    "partOfSpeech": "v",
+    "definition": "To serve as a typical example of something.",
+    "example": "The woman's kindness to her neighbors exemplifies true generosity."
+  },
+  {
+    "word": "Exhaustive",
+    "partOfSpeech": "adj",
+    "definition": "Thorough and complete.",
+    "example": "The 300-page report provided an exhaustive analysis."
+  },
+  {
+    "word": "Expansion",
+    "partOfSpeech": "n",
+    "definition": "The act of increasing in size or scope.",
+    "example": "The company's expansion into international markets has been successful so far."
+  },
+  {
+    "word": "Expensive",
+    "partOfSpeech": "adj",
+    "definition": "Costing a lot of money.",
+    "example": "My sister's diamond ring was extremely expensive."
+  },
+  {
+    "word": "Experiment",
+    "partOfSpeech": "n",
+    "definition": "A test to discover something new.",
+    "example": "The scientist conducted an experiment to test the theory."
+  },
+  {
+    "word": "Explicable",
+    "partOfSpeech": "adj",
+    "definition": "Able to be explained.",
+    "example": "Once I knew the full story, my boyfriend's actions were explicable given the circumstances."
+  },
+  {
+    "word": "Exploit",
+    "partOfSpeech": "v",
+    "definition": "To take advantage of something unfairly.",
+    "example": "The mining company was accused of exploiting workers."
+  },
+  {
+    "word": "Extensive",
+    "partOfSpeech": "adj",
+    "definition": "Covering a large area or scope.",
+    "example": "The Art Institute of Chicago has an extensive Impressionist collection."
+  },
+  {
+    "word": "Extraneous",
+    "partOfSpeech": "adj",
+    "definition": "Unrelated or unnecessary.",
+    "example": "The report contained too much extraneous information that didn't matter to the trial."
+  },
+  {
+    "word": "Fabricate",
+    "partOfSpeech": "v",
+    "definition": "To invent or create, often dishonestly.",
+    "example": "The criminal fabricated evidence to support his bogus claim."
+  },
+  {
+    "word": "Foretell",
+    "partOfSpeech": "v",
+    "definition": "To predict or anticipate.",
+    "example": "Ancient propheciesforetoldthe end of the world."
+  },
+  {
+    "word": "Foster",
+    "partOfSpeech": "v",
+    "definition": "To encourage or promote development.",
+    "example": "Teachers should strive to foster creativity in students."
+  },
+  {
+    "word": "Fragile",
+    "partOfSpeech": "adj",
+    "definition": "Easily broken or delicate.",
+    "example": "The glass vase is very fragile."
+  },
+  {
+    "word": "Fruitless",
+    "partOfSpeech": "adj",
+    "definition": "Failing to achieve desired results.",
+    "example": "Their search for survivors was fruitless."
+  },
+  {
+    "word": "Genuine",
+    "partOfSpeech": "adj",
+    "definition": "Authentic or real.",
+    "example": "His apology seemed genuine."
+  },
+  {
+    "word": "Grapple",
+    "partOfSpeech": "v",
+    "definition": "To struggle or wrestle with something.",
+    "example": "The country is grappling with economic issues."
+  },
+  {
+    "word": "Habitual",
+    "partOfSpeech": "adj",
+    "definition": "Done regularly or repeatedly.",
+    "example": "His habitual lateness annoyed his coworkers."
+  },
+  {
+    "word": "Haphazard",
+    "partOfSpeech": "adj",
+    "definition": "Lacking organization or planning.",
+    "example": "The project was completed in a haphazard manner."
+  },
+  {
+    "word": "Hibernation",
+    "partOfSpeech": "n",
+    "definition": "A state of dormancy or deep sleep.",
+    "example": "Many bear species go into hibernation during the winter."
+  },
+  {
+    "word": "Highlight",
+    "partOfSpeech": "v",
+    "definition": "To emphasize or make noticeable.",
+    "example": "The article highlights key points of the debate."
+  },
+  {
+    "word": "Hinder",
+    "partOfSpeech": "v",
+    "definition": "To obstruct or slow progress.",
+    "example": "The heavy traffic hindered our journey."
+  },
+  {
+    "word": "Hoard",
+    "partOfSpeech": "v",
+    "definition": "To accumulate and store excessively.",
+    "example": "He hoarded food supplies and toilet paper during the pandemic."
+  },
+  {
+    "word": "Homogeneous",
+    "partOfSpeech": "adj",
+    "definition": "Uniform or similar throughout.",
+    "example": "The population of the village is homogeneous."
+  },
+  {
+    "word": "Hypothesize",
+    "partOfSpeech": "v",
+    "definition": "To form a theory or assumption.",
+    "example": "Scientists hypothesize about the origin of the universe."
+  },
+  {
+    "word": "Imaginative",
+    "partOfSpeech": "adj",
+    "definition": "Creative and full of new ideas.",
+    "example": "The artist's work is highly imaginative."
+  },
+  {
+    "word": "Imitation",
+    "partOfSpeech": "n",
+    "definition": "A copy or replica of something.",
+    "example": "The purse was an imitation of a designer brand."
+  },
+  {
+    "word": "Imminent",
+    "partOfSpeech": "adj",
+    "definition": "About to happen soon.",
+    "example": "A storm is imminent according to the forecast."
+  },
+  {
+    "word": "Immune",
+    "partOfSpeech": "adj",
+    "definition": "Resistant to disease or harm.",
+    "example": "He's immune to the virus due to vaccination."
+  },
+  {
+    "word": "Impartial",
+    "partOfSpeech": "adj",
+    "definition": "Fair and not biased.",
+    "example": "Judges must always remain impartial during a trial."
+  },
+  {
+    "word": "Impending",
+    "partOfSpeech": "adj",
+    "definition": "Approaching or about to happen.",
+    "example": "They prepared for the impendings torm by boarding up windows."
+  },
+  {
+    "word": "Impenetrable",
+    "partOfSpeech": "adj",
+    "definition": "Impossible to pass through.",
+    "example": "The fortress was impenetrable to enemy attack."
+  },
+  {
+    "word": "Imperceptible",
+    "partOfSpeech": "adj",
+    "definition": "Very slight or difficult to notice.",
+    "example": "Alex's reaction was imperceptible, so I couldn't tell what he was thinking."
+  },
+  {
+    "word": "Implement",
+    "partOfSpeech": "v",
+    "definition": "To put into effect or execute.",
+    "example": "The business will implement new rules to comply with the change in laws."
+  },
+  {
+    "word": "Implication",
+    "partOfSpeech": "n",
+    "definition": "A possible consequence or meaning.",
+    "example": "The policy change has serious implications for lobbyists."
+  },
+  {
+    "word": "Implicit",
+    "partOfSpeech": "adj",
+    "definition": "Implied rather than stated directly.",
+    "example": "His approval was implicit in his silence."
+  },
+  {
+    "word": "Impractical",
+    "partOfSpeech": "adj",
+    "definition": "Not sensible or realistic.",
+    "example": "The dress design was too impractical to actually wear."
+  },
+  {
+    "word": "Improvise",
+    "partOfSpeech": "v",
+    "definition": "To create or perform spontaneously.",
+    "example": "The actor had to improvise when he forgot his lines."
+  },
+  {
+    "word": "Inactive",
+    "partOfSpeech": "adj",
+    "definition": "Not engaged in movement or activity.",
+    "example": "The volcano has been inactive for decades."
+  },
+  {
+    "word": "Inadequate",
+    "partOfSpeech": "adj",
+    "definition": "Insufficient or lacking.",
+    "example": "I felt inadequate when I didn't make the final shot during the basketball game."
+  },
+  {
+    "word": "Inadvertently",
+    "partOfSpeech": "adv",
+    "definition": "Unintentionally or by accident.",
+    "example": "The new worker caused a ruckus when he inadvertently deleted an important file."
+  },
+  {
+    "word": "Incite",
+    "partOfSpeech": "v",
+    "definition": "To encourage or stir up",
+    "example": "Her hateful words incited anger in the crowd."
+  },
+  {
+    "word": "Inconspicuous",
+    "partOfSpeech": "adj",
+    "definition": "Not being easily seen or noticed.",
+    "example": "The spy was inconspicuous as he moved through the crowd."
+  },
+  {
+    "word": "Indecipherable",
+    "partOfSpeech": "adj",
+    "definition": "Impossible to understand or read.",
+    "example": "His messy handwriting was indecipherable."
+  },
+  {
+    "word": "Indicate",
+    "partOfSpeech": "v",
+    "definition": "To point out or show.",
+    "example": "The results indicate a positive trend."
+  },
+  {
+    "word": "Indifference",
+    "partOfSpeech": "n",
+    "definition": "Lack of interest or concern.",
+    "example": "Natalia's indifference to the situation frustrated her sisters."
+  },
+  {
+    "word": "Indisputable",
+    "partOfSpeech": "adj",
+    "definition": "Unable to be challenged or denied.",
+    "example": "Because the evidence was indisputable, the lawyer was certain his client would go free."
+  },
+  {
+    "word": "Indistinct",
+    "partOfSpeech": "adj",
+    "definition": "Not clear or sharply defined.",
+    "example": "The figure in the distance was blurry and indistinct."
+  },
+  {
+    "word": "Indulge",
+    "partOfSpeech": "v",
+    "definition": "To allow oneself to enjoy.",
+    "example": "After a long day of work, Jane decided to indulge in a piece of cake."
+  },
+  {
+    "word": "Ineffectual",
+    "partOfSpeech": "adj",
+    "definition": "Not producing the desired effect.",
+    "example": "The mayor's efforts to change the city's parking rules were ineffectual."
+  },
+  {
+    "word": "Inevitable",
+    "partOfSpeech": "adj",
+    "definition": "Certain to happen; unavoidable.",
+    "example": "You must accept that change is inevitable in life."
+  },
+  {
+    "word": "Inexpensive",
+    "partOfSpeech": "adj",
+    "definition": "Not costly.",
+    "example": "The new Vietnamese restaurant down the street serves inexpensive but delicious meals."
+  },
+  {
+    "word": "Inexplicable",
+    "partOfSpeech": "adj",
+    "definition": "Unable to be explained.",
+    "example": "My uncle's sudden departure from the family reunion was inexplicable."
+  },
+  {
+    "word": "Influence",
+    "partOfSpeech": "n",
+    "definition": "The power to affect others.",
+    "example": "The pastor's speech had a strong influence on the audience."
+  },
+  {
+    "word": "Infrequent",
+    "partOfSpeech": "adj",
+    "definition": "Not occurring often.",
+    "example": "Rain is infrequent in the Atacama Desert."
+  },
+  {
+    "word": "Inhibit",
+    "partOfSpeech": "v",
+    "definition": "To hinder or restrain.",
+    "example": "Fear of failure can inhibit creativity."
+  },
+  {
+    "word": "Innocuous",
+    "partOfSpeech": "adj",
+    "definition": "Harmless or inoffensive.",
+    "example": "The comment seemed innocuous, but it upset him."
+  },
+  {
+    "word": "Insensible",
+    "partOfSpeech": "adj",
+    "definition": "Unaware or indifferent.",
+    "example": "The father was insensible to his children's boredom."
+  },
+  {
+    "word": "Insignificant",
+    "partOfSpeech": "adj",
+    "definition": "Too small or unimportant to matter.",
+    "example": "The difference in price between the two ice creams was insignificant."
+  },
+  {
+    "word": "Inspect",
+    "partOfSpeech": "v",
+    "definition": "To examine closely.",
+    "example": "The contractor will inspect the building for safety."
+  },
+  {
+    "word": "Inspirational",
+    "partOfSpeech": "adj",
+    "definition": "Providing motivation or encouragement.",
+    "example": "Evan's story of recovering from a severe car accident was inspirational to many."
+  },
+  {
+    "word": "Intangible",
+    "partOfSpeech": "adj",
+    "definition": "Not able to be touched or measured.",
+    "example": "Love is an intangible concept."
+  },
+  {
+    "word": "Intentional",
+    "partOfSpeech": "adj",
+    "definition": "Done on purpose.",
+    "example": "By reading the evidence, I could tell the man's actions were intentional."
+  },
+  {
+    "word": "Interchangeable",
+    "partOfSpeech": "adj",
+    "definition": "Able to be substituted for each other.",
+    "example": "These parts are interchangeables o it doesn't matter which one you use."
+  },
+  {
+    "word": "Interject",
+    "partOfSpeech": "v",
+    "definition": "To insert a comment abruptly.",
+    "example": "My brother interjected with a sarcastic remark."
+  },
+  {
+    "word": "Interpret",
+    "partOfSpeech": "v",
+    "definition": "To explain the meaning of something.",
+    "example": "I don't understand this poem; can you interpret it for met?"
+  },
+  {
+    "word": "Intersect",
+    "partOfSpeech": "v",
+    "definition": "To cross or meet at a point.",
+    "example": "The two streets intersect downtown."
+  },
+  {
+    "word": "Intricate",
+    "partOfSpeech": "adj",
+    "definition": "Very detailed or complicated.",
+    "example": "The artist created an intricated esign on the fabric."
+  },
+  {
+    "word": "Intriguing",
+    "partOfSpeech": "adj",
+    "definition": "Arousing curiosity or interest.",
+    "example": "The mystery novel was intriguing because I couldn't figure out who the murderer was."
+  },
+  {
+    "word": "Invalidate",
+    "partOfSpeech": "v",
+    "definition": "To make something void or null.",
+    "example": "The new evidence invalidated his argument."
+  },
+  {
+    "word": "Invent",
+    "partOfSpeech": "v",
+    "definition": "To create something new.",
+    "example": "Thomas Edison invented the incandescent light bulb."
+  },
+  {
+    "word": "Investigation",
+    "partOfSpeech": "n",
+    "definition": "Systematic inquiries to uncover facts.",
+    "example": "The police conducted a thorough investigation of the crime scene."
+  },
+  {
+    "word": "Involuntarily",
+    "partOfSpeech": "adv",
+    "definition": "Done without conscious control.",
+    "example": "She involuntarily gasped in surprise."
+  },
+  {
+    "word": "Irrelevant",
+    "partOfSpeech": "adj",
+    "definition": "Not related or applicable.",
+    "example": "His comment was irrelevant to the discussion."
+  },
+  {
+    "word": "Isolate",
+    "partOfSpeech": "v",
+    "definition": "To separate from others.",
+    "example": "We need to isolate the patient with the very contagious disease."
+  },
+  {
+    "word": "Lacking",
+    "partOfSpeech": "adj",
+    "definition": "Not having enough of something.",
+    "example": "The short essay was lacking in detail."
+  },
+  {
+    "word": "Latent",
+    "partOfSpeech": "adj",
+    "definition": "Present but not active.",
+    "example": "He had a latent talent for music."
+  },
+  {
+    "word": "Legitimate",
+    "partOfSpeech": "adj",
+    "definition": "Lawful or valid.",
+    "example": "Because he was named in the will, John's claim to the property was legitimate."
+  },
+  {
+    "word": "Localized",
+    "partOfSpeech": "adj",
+    "definition": "Restricted to a particular area.",
+    "example": "The disease was localized to one region."
+  },
+  {
+    "word": "Manageable",
+    "partOfSpeech": "adj",
+    "definition": "Able to be controlled or handled.",
+    "example": "I'm lucky that my workload is manageable today, so I'll be home in time for dinner."
+  },
+  {
+    "word": "Mandatory",
+    "partOfSpeech": "adj",
+    "definition": "Required or obligatory.",
+    "example": "Attendance at the meeting is mandatory for all employees."
+  },
+  {
+    "word": "Mimic",
+    "partOfSpeech": "v",
+    "definition": "To imitate.",
+    "example": "Parrots can mimic human speech."
+  },
+  {
+    "word": "Misanthropic",
+    "partOfSpeech": "adj",
+    "definition": "Disliking people or society.",
+    "example": "The old man was known for his misanthropic views."
+  },
+  {
+    "word": "Misrepresent",
+    "partOfSpeech": "v",
+    "definition": "To give a false impression.",
+    "example": "The article misrepresented the facts."
+  },
+  {
+    "word": "Moderate",
+    "partOfSpeech": "adj",
+    "definition": "Not extreme; average.",
+    "example": "He never has strong opinions, and most of his views are moderate."
+  },
+  {
+    "word": "Multifaceted",
+    "partOfSpeech": "adj",
+    "definition": "Having many aspects or features.",
+    "example": "The housing problem is multifaceted and will take multiple solutions to solve."
+  },
+  {
+    "word": "Neglect",
+    "partOfSpeech": "v",
+    "definition": "To fail to care for properly.",
+    "example": "He neglected his responsibilities when he decided to play video games instead of clean the house."
+  },
+  {
+    "word": "Neutrality",
+    "partOfSpeech": "n",
+    "definition": "The state of not taking sides.",
+    "example": "Switzerland maintained neutrality during World War II."
+  },
+  {
+    "word": "Newfound",
+    "partOfSpeech": "adj",
+    "definition": "Recently discovered or developed.",
+    "example": "The recently-released prisoner enjoyed his newfound freedom."
+  },
+  {
+    "word": "Notional",
+    "partOfSpeech": "adj",
+    "definition": "Existing only in theory.",
+    "example": "Because we hadn't started it, the plan was still notional."
+  },
+  {
+    "word": "Novel",
+    "partOfSpeech": "adj",
+    "definition": "New or original.",
+    "example": "The doctor introduced a novel approach to hip surgery."
+  },
+  {
+    "word": "Nuanced",
+    "partOfSpeech": "adj",
+    "definition": "Having subtle differences.",
+    "example": "His argument was well-developed and nuanced."
+  },
+  {
+    "word": "Obligate",
+    "partOfSpeech": "v",
+    "definition": "To compel or require.",
+    "example": "The contract obligates him to pay."
+  },
+  {
+    "word": "Obscure",
+    "partOfSpeech": "adj",
+    "definition": "Not easily understood or seen.",
+    "example": "The meaning of the letter was obscure and I didn't know what to make of it."
+  },
+  {
+    "word": "Observable",
+    "partOfSpeech": "adj",
+    "definition": "Able to be seen or noticed.",
+    "example": "The rings of Saturn were observable through the telescope."
+  },
+  {
+    "word": "Observant",
+    "partOfSpeech": "adj",
+    "definition": "Quick to notice things.",
+    "example": "The detective is very observant of small details."
+  },
+  {
+    "word": "Obsolete",
+    "partOfSpeech": "adj",
+    "definition": "No longer used; rare or uncommon",
+    "example": "Historians assumed record players would be obsolete by now, but in fact they're making a huge comeback."
+  },
+  {
+    "word": "Obstructed",
+    "partOfSpeech": "adj",
+    "definition": "Blocked or hindered.",
+    "example": "We couldn't leave town because the road was obstructed by fallen trees."
+  },
+  {
+    "word": "Occupy",
+    "partOfSpeech": "v",
+    "definition": "To take up space or time.",
+    "example": "The kids occupied themselves with games."
+  },
+  {
+    "word": "Oddity",
+    "partOfSpeech": "n",
+    "definition": "Something unusual or strange.",
+    "example": "The museum displayed an interesting oddity."
+  },
+  {
+    "word": "Offhand",
+    "partOfSpeech": "adj",
+    "definition": "Done without preparation or thought.",
+    "example": "His offhand remark surprised everyone."
+  },
+  {
+    "word": "Omnipotent",
+    "partOfSpeech": "adj",
+    "definition": "Almighty and all powerful",
+    "example": "Gods are omnipotent beings who can control human destiny."
+  },
+  {
+    "word": "Onset",
+    "partOfSpeech": "n",
+    "definition": "The beginning or early stages",
+    "example": "At the onset of her career as a lawyer, things were looking up."
+  },
+  {
+    "word": "Operative",
+    "partOfSpeech": "adj",
+    "definition": "Functioning or having effect.",
+    "example": "The new policy is now operatives o be sure to follow it."
+  },
+  {
+    "word": "Ornamental",
+    "partOfSpeech": "adj",
+    "definition": "Decorative rather than functional.",
+    "example": "The garden was filled with ornamental plants that helped beautify the space."
+  },
+  {
+    "word": "Oust",
+    "partOfSpeech": "v",
+    "definition": "To remove or force out of (usu. a position or office)",
+    "example": "Sick and tired of putting up with his bad moods, the pirates ousted their captain."
+  },
+  {
+    "word": "Outstrip",
+    "partOfSpeech": "v",
+    "definition": "To surpass or exceed.",
+    "example": "Sales of my new novel outstripped all expectations."
+  },
+  {
+    "word": "Overcome",
+    "partOfSpeech": "v",
+    "definition": "To succeed in dealing with a problem.",
+    "example": "Sheovercameher fear of public speaking and was able to deliver her remarks."
+  },
+  {
+    "word": "Overlook",
+    "partOfSpeech": "v",
+    "definition": "To fail to notice or consider.",
+    "example": "The officer overlooked an important detail that would have helped solve the crime."
+  },
+  {
+    "word": "Overreact",
+    "partOfSpeech": "v",
+    "definition": "To respond too strongly.",
+    "example": "My sister overreacted to our parents' criticism of her outfit."
+  },
+  {
+    "word": "Overshadow",
+    "partOfSpeech": "v",
+    "definition": "To be more important than something else.",
+    "example": "His success overshadowed his past failures."
+  },
+  {
+    "word": "Overtly",
+    "partOfSpeech": "adv",
+    "definition": "Openly and clearly.",
+    "example": "He overtly expressed his disapproval by telling me what he thought."
+  },
+  {
+    "word": "Overwhelmed",
+    "partOfSpeech": "adj",
+    "definition": "Feeling excessive stress or emotion.",
+    "example": "Agatha felt overwhelmed by her workload and had no idea how she'd finish it all in time."
+  },
+  {
+    "word": "Paramount",
+    "partOfSpeech": "adj",
+    "definition": "Predominant, superior, most important",
+    "example": "Our paramount concern is the safety of our employees."
+  },
+  {
+    "word": "Paucity",
+    "partOfSpeech": "n",
+    "definition": "A scarcity or lack.",
+    "example": "The crime will be difficult to solve because there is a paucity of evidence."
+  },
+  {
+    "word": "Perceive",
+    "partOfSpeech": "v",
+    "definition": "To become aware of something.",
+    "example": "She perceived a hint of sadness in his voice."
+  },
+  {
+    "word": "Peripheral",
+    "partOfSpeech": "adj",
+    "definition": "On the edge or outer part of something.",
+    "example": "My involvement was peripheral to the project because I didn't do much."
+  },
+  {
+    "word": "Permanent",
+    "partOfSpeech": "adj",
+    "definition": "Lasting indefinitely.",
+    "example": "The marker left a permanents tain on my favorite shirt that I won't be able ot get out."
+  },
+  {
+    "word": "Perpetual",
+    "partOfSpeech": "adj",
+    "definition": "Continuing forever or indefinitely.",
+    "example": "The con artist lived in perpetual fear of being arrested."
+  },
+  {
+    "word": "Persistent",
+    "partOfSpeech": "adj",
+    "definition": "Continuing despite difficulty.",
+    "example": "After fifty years of buying lottery tickets,persistent efforts paid off when he won the jackpot."
+  },
+  {
+    "word": "Popularize",
+    "partOfSpeech": "v",
+    "definition": "To make widely known.",
+    "example": "The internet popularized online shopping."
+  },
+  {
+    "word": "Postulate",
+    "partOfSpeech": "v",
+    "definition": "To assume or propose a theory.",
+    "example": "Scientists postulated a new hypothesis for the origin of the universe."
+  },
+  {
+    "word": "Pragmatic",
+    "partOfSpeech": "adj",
+    "definition": "Practical and realistic.",
+    "example": "Elliot put his emotions aside and took a pragmatic approach to problem-solving."
+  },
+  {
+    "word": "Praise",
+    "partOfSpeech": "v",
+    "definition": "To express approval or admiration.",
+    "example": "The teacher praised the students' hard work."
+  },
+  {
+    "word": "Precarious",
+    "partOfSpeech": "adj",
+    "definition": "Uncertain or unstable.",
+    "example": "The goat was perched on a precarioused ge of the cliff."
+  },
+  {
+    "word": "Preclude",
+    "partOfSpeech": "v",
+    "definition": "To prevent from happening.",
+    "example": "Dylan's injury precluded him from playing in the soccer match."
+  },
+  {
+    "word": "Predatory",
+    "partOfSpeech": "adj",
+    "definition": "Exploiting others for personal gain.",
+    "example": "The credit company engaged in predatory lending practices."
+  },
+  {
+    "word": "Predetermined",
+    "partOfSpeech": "adj",
+    "definition": "Decided in advance.",
+    "example": "The outcome seemed predetermined and that we could do nothing to change it."
+  },
+  {
+    "word": "Predict",
+    "partOfSpeech": "v",
+    "definition": "To say what will happen in the future.",
+    "example": "Meteorologists predict rain tomorrow."
+  },
+  {
+    "word": "Premeditated",
+    "partOfSpeech": "adj",
+    "definition": "Planned beforehand.",
+    "example": "Because the man had planned the theft for weeks, it was obvious the crime was premeditated."
+  },
+  {
+    "word": "Prescribe",
+    "partOfSpeech": "v",
+    "definition": "To recommend or order a treatment.",
+    "example": "The doctor prescribed antibiotics when I had an ear infection."
+  },
+  {
+    "word": "Preserve",
+    "partOfSpeech": "v",
+    "definition": "To keep something in its original state.",
+    "example": "The builders worked to preserve the house's original decorations."
+  },
+  {
+    "word": "Presume",
+    "partOfSpeech": "v",
+    "definition": "To assume something to be true.",
+    "example": "I presume he will be late to the party."
+  },
+  {
+    "word": "Prevail",
+    "partOfSpeech": "v",
+    "definition": "To win or be more powerful.",
+    "example": "Justice will always prevail."
+  },
+  {
+    "word": "Preventable",
+    "partOfSpeech": "adj",
+    "definition": "Able to be avoided.",
+    "example": "Many diseases are preventable with vaccines."
+  },
+  {
+    "word": "Probability",
+    "partOfSpeech": "n",
+    "definition": "Likelihood of something happening.",
+    "example": "When you live in the desert, there's almost always a low probability of rain."
+  },
+  {
+    "word": "Proclaim",
+    "partOfSpeech": "v",
+    "definition": "To announce officially.",
+    "example": "The king proclaimed a new law."
+  },
+  {
+    "word": "Produce",
+    "partOfSpeech": "v",
+    "definition": "To create or generate something.",
+    "example": "The Ford factory produces thousands of cars each year."
+  },
+  {
+    "word": "Profusion",
+    "partOfSpeech": "n",
+    "definition": "A large quantity of something.",
+    "example": "The garden had a profusion of flowers every spring."
+  },
+  {
+    "word": "Prolong",
+    "partOfSpeech": "v",
+    "definition": "To extend in duration.",
+    "example": "He tried to prolong the meeting from one hour to two."
+  },
+  {
+    "word": "Prominent",
+    "partOfSpeech": "adj",
+    "definition": "Important or well-known.",
+    "example": "Marie Curie was a prominents cientist who won many awards."
+  },
+  {
+    "word": "Proponent",
+    "partOfSpeech": "n",
+    "definition": "A supporter of a cause or idea.",
+    "example": "The environmentalist was a proponent of renewable energy."
+  },
+  {
+    "word": "Provoke",
+    "partOfSpeech": "v",
+    "definition": "To stir up or incite.",
+    "example": "Miriam's rude words provoked an argument."
+  },
+  {
+    "word": "Prudently",
+    "partOfSpeech": "adv",
+    "definition": "In a wise or careful manner.",
+    "example": "My grandmother always prudently saved money for emergencies."
+  },
+  {
+    "word": "Quantity",
+    "partOfSpeech": "n",
+    "definition": "An amount or number.",
+    "example": "The pudding recipe requires a small quantity of sugar."
+  },
+  {
+    "word": "Quarrel",
+    "partOfSpeech": "n",
+    "definition": "An angry argument or dispute.",
+    "example": "The couple had a loud quarrel over money."
+  },
+  {
+    "word": "Questionable",
+    "partOfSpeech": "adj",
+    "definition": "Doubtful or uncertain.",
+    "example": "Despite claiming to want to help people, the politician's motives were questionable."
+  },
+  {
+    "word": "Ramify",
+    "partOfSpeech": "v",
+    "definition": "To split into two or more branches",
+    "example": "Cars ramified throughout the world in the twentieth century."
+  },
+  {
+    "word": "Rarely",
+    "partOfSpeech": "adv",
+    "definition": "Infrequently or seldom.",
+    "example": "My sister rarely eats fast food."
+  },
+  {
+    "word": "Rationalize",
+    "partOfSpeech": "v",
+    "definition": "To justify an action with reasoning.",
+    "example": "He tried to rationalize his mistake by explaining his thought process."
+  },
+  {
+    "word": "Rebellion",
+    "partOfSpeech": "n",
+    "definition": "An act of resistance against authority.",
+    "example": "The peasants led a rebellion against the king."
+  },
+  {
+    "word": "Recalcitrant",
+    "partOfSpeech": "adj",
+    "definition": "Stubbornly resistant to authority.",
+    "example": "The recalcitrants tudent refused to obey."
+  },
+  {
+    "word": "Recant",
+    "partOfSpeech": "v",
+    "definition": "To take back a previous statement.",
+    "example": "He was forced to recant his confession."
+  },
+  {
+    "word": "Receptive",
+    "partOfSpeech": "adj",
+    "definition": "Open to new ideas.",
+    "example": "The new dancer was receptive to feedback."
+  },
+  {
+    "word": "Reciprocate",
+    "partOfSpeech": "v",
+    "definition": "To give in return.",
+    "example": "I reciprocated my brother's kindness by buying him dinner."
+  },
+  {
+    "word": "Recognizable",
+    "partOfSpeech": "adj",
+    "definition": "Easily identified.",
+    "example": "The Nike logo is instantly recognizable."
+  },
+  {
+    "word": "Rectify",
+    "partOfSpeech": "v",
+    "definition": "To correct or fix something.",
+    "example": "She tried to rectify her mistake with an apology."
+  },
+  {
+    "word": "Redefine",
+    "partOfSpeech": "v",
+    "definition": "To change the meaning of something.",
+    "example": "The company redefined its mission."
+  },
+  {
+    "word": "Redress",
+    "partOfSpeech": "v",
+    "definition": "To set right or remedy.",
+    "example": "They sought to redress past injustices."
+  },
+  {
+    "word": "Reform",
+    "partOfSpeech": "v",
+    "definition": "To improve by making changes.",
+    "example": "The government promised to reform the healthcare system."
+  },
+  {
+    "word": "Refuse",
+    "partOfSpeech": "v",
+    "definition": "To decline or reject.",
+    "example": "Emilia refused the job offer."
+  },
+  {
+    "word": "Refute",
+    "partOfSpeech": "v",
+    "definition": "To prove false or incorrect.",
+    "example": "The scientist refuted the claim that the Earth was flat."
+  },
+  {
+    "word": "Regrettable",
+    "partOfSpeech": "adj",
+    "definition": "Causing sorrow or disappointment.",
+    "example": "Forgetting my boyfriend's birthday was a regrettable mistake."
+  },
+  {
+    "word": "Regulate",
+    "partOfSpeech": "v",
+    "definition": "To control or manage.",
+    "example": "The government regulates nuclear energy facilities."
+  },
+  {
+    "word": "Reject",
+    "partOfSpeech": "v",
+    "definition": "To dismiss or refuse to accept.",
+    "example": "She rejected her boyfriend's proposal."
+  },
+  {
+    "word": "Relocate",
+    "partOfSpeech": "v",
+    "definition": "To move to a new place.",
+    "example": "The dentist relocated to a bigger office."
+  },
+  {
+    "word": "Renounce",
+    "partOfSpeech": "v",
+    "definition": "To give up or reject formally.",
+    "example": "He renounced his citizenship after moving to a new country."
+  },
+  {
+    "word": "Replenish",
+    "partOfSpeech": "v",
+    "definition": "To refill or restore.",
+    "example": "After we finished the lemonade, the hostess replenished the pitcher."
+  },
+  {
+    "word": "Replicable",
+    "partOfSpeech": "adj",
+    "definition": "Able to be copied or repeated.",
+    "example": "The experiment's results were replicable."
+  },
+  {
+    "word": "Representative",
+    "partOfSpeech": "n",
+    "definition": "A person acting on behalf of others.",
+    "example": "The company's representatives poke at the meeting."
+  },
+  {
+    "word": "Repress",
+    "partOfSpeech": "v",
+    "definition": "To suppress or hold back.",
+    "example": "Although devastated, Jalen repressed his emotions."
+  },
+  {
+    "word": "Reprieve",
+    "partOfSpeech": "n",
+    "definition": "A temporary relief or delay.",
+    "example": "Because the defendant needed surgery, the judge granted a reprieve."
+  },
+  {
+    "word": "Repudiate",
+    "partOfSpeech": "v",
+    "definition": "To reject or disown.",
+    "example": "She repudiated the accusation that she'd stolen money from the company."
+  },
+  {
+    "word": "Resilient",
+    "partOfSpeech": "adj",
+    "definition": "Able to recover quickly.",
+    "example": "Even after setbacks, the patient is very resilient."
+  },
+  {
+    "word": "Resolve",
+    "partOfSpeech": "v",
+    "definition": "To find a solution.",
+    "example": "The warring siblings eventually resolved their differences."
+  },
+  {
+    "word": "Responsive",
+    "partOfSpeech": "adj",
+    "definition": "Reacting quickly or positively.",
+    "example": "The team wanted to improve and was very responsive to feedback."
+  },
+  {
+    "word": "Restore",
+    "partOfSpeech": "v",
+    "definition": "To bring back to original condition.",
+    "example": "The architecture team carefully restored the old house."
+  },
+  {
+    "word": "Restrain",
+    "partOfSpeech": "v",
+    "definition": "To hold back or limit.",
+    "example": "Even though Tom was furious, he restrained his anger."
+  },
+  {
+    "word": "Retain",
+    "partOfSpeech": "v",
+    "definition": "To keep or hold onto.",
+    "example": "I use this pitcher to retain water for my herb garden."
+  },
+  {
+    "word": "Retaliate",
+    "partOfSpeech": "v",
+    "definition": "To respond to an attack.",
+    "example": "After Celia yelled at Dom, he retaliated with a counterattack."
+  },
+  {
+    "word": "Reticent",
+    "partOfSpeech": "adj",
+    "definition": "Reluctant to share one's thoughts or feelings; reserved",
+    "example": "My neighbor is so reticent I never know what she really thinks of anything."
+  },
+  {
+    "word": "Rousing",
+    "partOfSpeech": "adj",
+    "definition": "Exciting or stirring.",
+    "example": "The speaker gave a rousings peech that brought the audience to its feet."
+  },
+  {
+    "word": "Rudimentary",
+    "partOfSpeech": "adj",
+    "definition": "Basic or simple.",
+    "example": "The little boy only has a rudimentary understanding of math."
+  },
+  {
+    "word": "Sanction",
+    "partOfSpeech": "v",
+    "definition": "To authorize or approve.",
+    "example": "The government sanctioned the project so construction will start soon."
+  },
+  {
+    "word": "Sanguine",
+    "partOfSpeech": "adj",
+    "definition": "Optimistic or hopeful.",
+    "example": "He remained sanguined espite repeated setbacks."
+  },
+  {
+    "word": "Saturate",
+    "partOfSpeech": "v",
+    "definition": "To soak or fill completely.",
+    "example": "The sponge was saturated with water."
+  },
+  {
+    "word": "Scorn",
+    "partOfSpeech": "v",
+    "definition": "To look down on with disdain",
+    "example": "It's difficult for me not to scorn those who use improper grammar."
+  },
+  {
+    "word": "Scrutinize",
+    "partOfSpeech": "v",
+    "definition": "To examine closely.",
+    "example": "I'm going to have my lawyer scrutinize the contract."
+  },
+  {
+    "word": "Secretive",
+    "partOfSpeech": "adj",
+    "definition": "Keeping things hidden.",
+    "example": "He was secretive about his plans for Valentine's Day."
+  },
+  {
+    "word": "Sensitive",
+    "partOfSpeech": "adj",
+    "definition": "Easily affected or aware.",
+    "example": "She is very sensitive to criticism."
+  },
+  {
+    "word": "Simulate",
+    "partOfSpeech": "v",
+    "definition": "To imitate or replicate.",
+    "example": "The pilot simulated an emergency landing."
+  },
+  {
+    "word": "Sincerity",
+    "partOfSpeech": "n",
+    "definition": "The quality of being genuine.",
+    "example": "His sincerity was evident in his speech."
+  },
+  {
+    "word": "Skeptical",
+    "partOfSpeech": "adj",
+    "definition": "Doubtful or questioning.",
+    "example": "The teacher was skeptical of the student's claim that the dog ate her homework."
+  },
+  {
+    "word": "Sophisticated",
+    "partOfSpeech": "adj",
+    "definition": "Complex or refined.",
+    "example": "The building's design was intricate and sophisticated."
+  },
+  {
+    "word": "Span",
+    "partOfSpeech": "n",
+    "definition": "The extent or length of something.",
+    "example": "The Golden Gate Bridge has a long span."
+  },
+  {
+    "word": "Sparingly",
+    "partOfSpeech": "adv",
+    "definition": "Insufficiently, meagerly, or in a restricted manner",
+    "example": "Due to my blood pressure, I must eat salt sparingly."
+  },
+  {
+    "word": "Speculate",
+    "partOfSpeech": "v",
+    "definition": "To guess or theorize.",
+    "example": "He speculated about the outcome of the soccer match."
+  },
+  {
+    "word": "Spurious",
+    "partOfSpeech": "adj",
+    "definition": "False or deceptive.",
+    "example": "The claims were spurious and therefore thrown out in court."
+  },
+  {
+    "word": "Stark",
+    "partOfSpeech": "adj",
+    "definition": "Very plain; devoid of any details or features",
+    "example": "Looking out at the stark landscape, I felt a keen sense of isolation."
+  },
+  {
+    "word": "Strenuously",
+    "partOfSpeech": "adv",
+    "definition": "With great effort.",
+    "example": "She strenuously denied the accusations against her."
+  },
+  {
+    "word": "Sturdily",
+    "partOfSpeech": "adv",
+    "definition": "Strongly or solidly.",
+    "example": "The chair was sturdily built and had no chance of breaking."
+  },
+  {
+    "word": "Stymie",
+    "partOfSpeech": "v",
+    "definition": "To hinder or block.",
+    "example": "The restoration project was stymied by a lack of funds."
+  },
+  {
+    "word": "Substantial",
+    "partOfSpeech": "adj",
+    "definition": "Large or important.",
+    "example": "Jackie made a substantial donation to her alma mater."
+  },
+  {
+    "word": "Subtle",
+    "partOfSpeech": "adj",
+    "definition": "Hard to detect or analyze",
+    "example": "The author gave a subtle hint as to who the murderer was."
+  },
+  {
+    "word": "Succumb",
+    "partOfSpeech": "v",
+    "definition": "To give in or surrender.",
+    "example": "He succumbed to the temptation to eat the entire bag of gummy bears."
+  },
+  {
+    "word": "Superficial",
+    "partOfSpeech": "adj",
+    "definition": "Shallow or lacking depth.",
+    "example": "The candidate struggled to answer questions about policy because his knowledge was superficial."
+  },
+  {
+    "word": "Supplement",
+    "partOfSpeech": "v",
+    "definition": "To add to something.",
+    "example": "She supplemented her income by starting a side hustle."
+  },
+  {
+    "word": "Surmise",
+    "partOfSpeech": "v",
+    "definition": "To infer or guess.",
+    "example": "He surmised the answer based on context clues."
+  },
+  {
+    "word": "Surpass",
+    "partOfSpeech": "v",
+    "definition": "To exceed or go beyond.",
+    "example": "She surpassed expectations by winning the national spelling bee."
+  },
+  {
+    "word": "Surrender",
+    "partOfSpeech": "v",
+    "definition": "To give up or yield.",
+    "example": "The weakened army surrendered to the enemy."
+  },
+  {
+    "word": "Susceptible",
+    "partOfSpeech": "adj",
+    "definition": "Easily influenced or affected.",
+    "example": "With his weakened immune system, Marcelo is susceptible to illness."
+  },
+  {
+    "word": "Synchronization",
+    "partOfSpeech": "n",
+    "definition": "The process of coordinating events.",
+    "example": "The synchronization of lights helped traffic flow."
+  },
+  {
+    "word": "Tentative",
+    "partOfSpeech": "adj",
+    "definition": "Uncertain or not fully decided.",
+    "example": "Our plans are tentative and may change."
+  },
+  {
+    "word": "Tenuous",
+    "partOfSpeech": "adj",
+    "definition": "Weak or insubstantial.",
+    "example": "His argument was tenuous at best."
+  },
+  {
+    "word": "Theoretical",
+    "partOfSpeech": "adj",
+    "definition": "Based on theory rather than practice.",
+    "example": "The idea remains theoretical until tested."
+  },
+  {
+    "word": "Theory",
+    "partOfSpeech": "n",
+    "definition": "A system of ideas intended to explain something.",
+    "example": "Einstein's theory of relativity changed physics."
+  },
+  {
+    "word": "Thoughtfulness",
+    "partOfSpeech": "n",
+    "definition": "Consideration for others.",
+    "example": "Her thoughtfulness made her a great friend."
+  },
+  {
+    "word": "Tranquil",
+    "partOfSpeech": "adj",
+    "definition": "Peaceful and calm.",
+    "example": "The lake was tranquil at sunset."
+  },
+  {
+    "word": "Transform",
+    "partOfSpeech": "v",
+    "definition": "To change in form or appearance.",
+    "example": "The caterpillar transformed into a butterfly."
+  },
+  {
+    "word": "Ubiquitous",
+    "partOfSpeech": "adj",
+    "definition": "Present everywhere.",
+    "example": "Smartphones have become ubiquitous in society."
+  },
+  {
+    "word": "Uncontroversial",
+    "partOfSpeech": "adj",
+    "definition": "Not likely to cause disagreement.",
+    "example": "The decision was uncontroversial and widely accepted."
+  },
+  {
+    "word": "Undeniable",
+    "partOfSpeech": "adj",
+    "definition": "Cannot be disputed.",
+    "example": "Simone Biles' talent as a gymnast is undeniable."
+  },
+  {
+    "word": "Underscore",
+    "partOfSpeech": "v",
+    "definition": "To emphasize.",
+    "example": "The report underscored the importance of safety."
+  },
+  {
+    "word": "Unimportant",
+    "partOfSpeech": "adj",
+    "definition": "Not significant.",
+    "example": "The details were unimportant to the main issue."
+  },
+  {
+    "word": "Unintended",
+    "partOfSpeech": "adj",
+    "definition": "Not planned or meant.",
+    "example": "The side effects of the medication were unintended."
+  },
+  {
+    "word": "Universal",
+    "partOfSpeech": "adj",
+    "definition": "Common to all.",
+    "example": "The desire for love is universal."
+  },
+  {
+    "word": "Unmistakable",
+    "partOfSpeech": "adj",
+    "definition": "Clearly recognizable.",
+    "example": "Morgan Freeman's voice is unmistakable."
+  },
+  {
+    "word": "Unobtrusive",
+    "partOfSpeech": "adj",
+    "definition": "Not attracting attention.",
+    "example": "The waitress did her best to be unobtrusive while clearing the table."
+  },
+  {
+    "word": "Unoriginal",
+    "partOfSpeech": "adj",
+    "definition": "Lacking originality.",
+    "example": "His speech was unoriginal and predictable."
+  },
+  {
+    "word": "Unpredictable",
+    "partOfSpeech": "adj",
+    "definition": "Difficult to foresee.",
+    "example": "The weather in winter can often be unpredictable."
+  },
+  {
+    "word": "Validate",
+    "partOfSpeech": "v",
+    "definition": "To confirm the accuracy of something.",
+    "example": "The test results validated his hypothesis."
+  },
+  {
+    "word": "Variable",
+    "partOfSpeech": "adj",
+    "definition": "Likely to change.",
+    "example": "The weather is highly variable in spring."
+  },
+  {
+    "word": "Verisimilitude",
+    "partOfSpeech": "n",
+    "definition": "The appearance of being true or real.",
+    "example": "The novel's verisimilitude made it compelling."
+  },
+  {
+    "word": "Veritable",
+    "partOfSpeech": "adj",
+    "definition": "Used to emphasize truth.",
+    "example": "Einstein was a veritable genius."
+  },
+  {
+    "word": "Vigilance",
+    "partOfSpeech": "n",
+    "definition": "The action of keeping careful watch.",
+    "example": "Constant vigilance is needed for security."
+  },
+  {
+    "word": "Vital",
+    "partOfSpeech": "adj",
+    "definition": "Urgently necessary",
+    "example": "It is vital that you respond by the deadline."
+  },
+  {
+    "word": "Volatile",
+    "partOfSpeech": "adj",
+    "definition": "Liable to change rapidly and unpredictably; easily evaporated (in scientific contexts)",
+    "example": "My uncle's mood is very volatile,so we never know how he's going to react."
+  },
+  {
+    "word": "Waive",
+    "partOfSpeech": "v",
+    "definition": "To give up a right or claim voluntarily.",
+    "example": "He waived his right to an attorney."
+  },
+  {
+    "word": "Warranted",
+    "partOfSpeech": "adj",
+    "definition": "Justified or necessary.",
+    "example": "The decision was warranted by the evidence."
+  },
+  {
+    "word": "Widespread",
+    "partOfSpeech": "adj",
+    "definition": "Found or occurring over a large area.",
+    "example": "The disease became widespread."
+  },
+  {
+    "word": "Withdraw",
+    "partOfSpeech": "v",
+    "definition": "To remove or retreat.",
+    "example": "Shewithdrewfrom the competition."
+  }
+]

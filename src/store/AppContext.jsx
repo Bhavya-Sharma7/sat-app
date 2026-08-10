@@ -16,8 +16,8 @@ export const AppProvider = ({ children }) => {
       try {
         const [appState, qRes, vRes] = await Promise.all([
           getInitialState(),
-          fetch('/questions.json').then(r => r.json()),
-          fetch('/vocab.json').then(r => r.json())
+          fetch(`${import.meta.env.BASE_URL}questions.json`).then(r => r.json()),
+          fetch(`${import.meta.env.BASE_URL}vocab.json`).then(r => r.json())
         ]);
         setAllQuestions(qRes);
         setAllVocab(vRes);

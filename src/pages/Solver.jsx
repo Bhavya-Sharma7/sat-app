@@ -123,6 +123,7 @@ export default function Solver() {
   const [checkedIds, setCheckedIds] = useState(new Set());
   const [timers, setTimers] = useState({}); // { [questionId]: seconds }
   const [timerActive, setTimerActive] = useState(true);
+  const [timerResetCount, setTimerResetCount] = useState(0); // incremented on each reset to force effect re-run
   const timerRef = useRef(null);
 
   // Load underlines data (embedded per-question)
@@ -174,7 +175,7 @@ export default function Solver() {
       setTimers(prev => ({ ...prev, [qId]: (prev[qId] || 0) + 1 }));
     }, 1000);
     return () => clearInterval(timerRef.current);
-  }, [currentIndex, timerActive, checkedIds.size]); // eslint-disable-line
+  }, [currentIndex, timerActive, checkedIds.size, timerResetCount]); // eslint-disable-line
 
   // Reset per-question UI state & timer when navigating
   useEffect(() => {
@@ -385,6 +386,7 @@ export default function Solver() {
                   clearInterval(timerRef.current);
                   setTimers(prev => ({ ...prev, [qId]: 0 }));
                   setTimerActive(true);
+                  setTimerResetCount(c => c + 1);
                 }}
                 title="Reset timer"
                 style={{

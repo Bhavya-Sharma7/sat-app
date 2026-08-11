@@ -1,41 +1,46 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useApp } from '../store/AppContext';
-import { Bookmark, ChevronUp, BookOpen, X, Eye, EyeOff, RotateCcw } from 'lucide-react';
+import { Bookmark, ChevronUp, BookOpen, X, Eye, EyeOff, RotateCcw, Volume2, Loader2 } from 'lucide-react';
 import { cleanExplanation, splitQuestionText, extractImageStem } from '../utils/textFormatter';
 import HighlightToolbar, { HIGHLIGHT_COLORS } from '../components/HighlightToolbar';
 import HighlightedText from '../components/HighlightedText';
+import { fetchWordDefinition, getPhoneticAudio, getPhoneticText, getMeanings } from '../utils/dictionaryApi';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
-const fetchDefinition = async (word) => {
-  try {
-    const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
-    const data = await res.json();
-    return data[0]?.meanings[0]?.definitions[0]?.definition || 'Definition not found.';
-  } catch (e) {
-    return 'Error fetching definition.';
-  }
-};
-
+/** Rich expandable dictionary entry for the notebook sidebar */
 const WordDefinition = ({ wordObj, onRemove }) => {
-  const [def, setDef] = useState(null);
+  const [showDict, setShowDict] = useState(false);
+  const [entries, setEntries] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+  const audioRef = useRef(null);
 
-  const handleClick = async () => {
-    if (def) { setDef(null); return; }
+  const handleToggle = async () => {
+    if (showDict) { setShowDict(false); return; }
+    setShowDict(true);
+    if (entries !== null || error) return; // already fetched
     setLoading(true);
-    const text = await fetchDefinition(wordObj.word);
-    setDef(text);
+    const data = await fetchWordDefinition(wordObj.word);
     setLoading(false);
+    if (!data) setError(true);
+    else setEntries(data);
   };
 
+  const phoneticText = entries ? getPhoneticText(entries) : null;
+  const phoneticAudio = entries ? getPhoneticAudio(entries) : null;
+  const meanings = entries ? getMeanings(entries) : [];
+
   return (
-    <div style={{ fontSize: '0.85rem', padding: '5px 0', borderBottom: '1px solid #f1f5f9', color: '#334155' }}>
+    <div style={{ fontSize: '0.85rem', paddingBottom: '0.5rem', borderBottom: '1px solid #f1f5f9', color: '#334155', marginBottom: '0.25rem' }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer', flex: 1 }} onClick={handleClick}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer', flex: 1 }} onClick={handleToggle}>
           <strong>{wordObj.word}</strong>
-          {loading ? <span style={{fontSize:'0.7rem', color:'#94a3b8'}}>...</span> : <span style={{fontSize:'0.7rem', color:'#cbd5e1'}}>▼</span>}
+          {loading
+            ? <Loader2 size={11} style={{ animation: 'spin 1s linear infinite', color: '#94a3b8' }} />
+            : <span style={{ fontSize: '0.68rem', color: showDict ? '#7c3aed' : '#cbd5e1' }}>{showDict ? '▲' : '▼'}</span>
+          }
         </div>
         {onRemove && (
           <button
@@ -49,7 +54,49 @@ const WordDefinition = ({ wordObj, onRemove }) => {
           </button>
         )}
       </div>
-      {def && <div style={{ fontSize: '0.75rem', color: '#64748b', marginTop: 4, background: '#f8fafc', padding: 6, borderRadius: 4 }}>{def}</div>}
+
+      {/* Rich dict panel */}
+      {showDict && (
+        <div style={{ marginTop: '0.4rem', border: '1px solid #ede9fe', borderRadius: 8, overflow: 'hidden', background: '#faf5ff' }}>
+          {/* Header */}
+          <div style={{ padding: '0.4rem 0.7rem', background: '#7c3aed', display: 'flex', alignItems: 'center', gap: 6 }}>
+            <BookOpen size={11} color="white" />
+            <span style={{ color: 'white', fontWeight: 700, fontSize: '0.72rem' }}>Free Dictionary</span>
+            {phoneticText && <span style={{ color: '#ddd6fe', fontSize: '0.7rem', fontStyle: 'italic' }}>{phoneticText}</span>}
+            {phoneticAudio && (
+              <>
+                <audio ref={audioRef} src={phoneticAudio} preload="none" />
+                <button onClick={() => audioRef.current?.play().catch(() => {})} style={{ background: 'rgba(255,255,255,0.2)', border: 'none', borderRadius: '50%', width: 20, height: 20, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}>
+                  <Volume2 size={10} color="white" />
+                </button>
+              </>
+            )}
+          </div>
+
+          {/* Body */}
+          <div style={{ padding: '0.5rem 0.7rem', maxHeight: 200, overflowY: 'auto' }}>
+            {loading && <div style={{ textAlign: 'center', color: '#94a3b8', padding: '0.5rem' }}><Loader2 size={14} style={{ animation: 'spin 1s linear infinite', display: 'inline-block' }} /></div>}
+            {error && <p style={{ fontSize: '0.75rem', color: '#ef4444' }}>Word not found.</p>}
+            {!loading && !error && meanings.map((meaning, mi) => (
+              <div key={mi} style={{ marginBottom: mi < meanings.length - 1 ? '0.6rem' : 0 }}>
+                <span style={{ display: 'inline-block', padding: '1px 6px', borderRadius: 8, background: '#ede9fe', color: '#6d28d9', fontSize: '0.65rem', fontWeight: 700, marginBottom: '0.25rem', textTransform: 'uppercase' }}>{meaning.partOfSpeech}</span>
+                <ol style={{ margin: 0, paddingLeft: '1rem' }}>
+                  {meaning.definitions.slice(0, 2).map((def, di) => (
+                    <li key={di} style={{ marginBottom: '0.25rem' }}>
+                      <p style={{ margin: 0, fontSize: '0.75rem', color: '#1e293b', lineHeight: 1.4 }}>{def.definition}</p>
+                      {def.example && <p style={{ margin: '0.15rem 0 0', fontSize: '0.68rem', color: '#64748b', fontStyle: 'italic' }}>"{def.example}"</p>}
+                    </li>
+                  ))}
+                </ol>
+                {/* Synonyms */}
+                {(() => { const s = [...(meaning.synonyms||[]),...meaning.definitions.flatMap(d=>d.synonyms||[])].slice(0,4); return s.length ? <div style={{marginTop:'0.2rem',display:'flex',flexWrap:'wrap',gap:3}}><span style={{fontSize:'0.63rem',color:'#94a3b8',fontWeight:600}}>syn:</span>{s.map((x,i)=><span key={i} style={{padding:'1px 5px',borderRadius:8,background:'#f0fdf4',color:'#166534',fontSize:'0.63rem'}}>{x}</span>)}</div> : null; })()}
+                {mi < meanings.length - 1 && <hr style={{ margin: '0.5rem 0 0', border: 'none', borderTop: '1px solid #f1f5f9' }} />}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+      <style>{`@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}`}</style>
     </div>
   );
 };

@@ -1,44 +1,168 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useApp } from '../store/AppContext';
-import { X } from 'lucide-react';
+import { X, BookOpen, Volume2, Loader2 } from 'lucide-react';
+import { fetchWordDefinition, getPhoneticAudio, getPhoneticText, getMeanings } from '../utils/dictionaryApi';
 
-const fetchDefinition = async (word) => {
-  try {
-    const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
-    const data = await res.json();
-    return data[0]?.meanings[0]?.definitions[0]?.definition || 'Definition not found.';
-  } catch (e) {
-    return 'Error fetching definition.';
-  }
-};
+/** Shared rich dictionary panel used by Notebook and Confused Vocab cards */
+function DictPanel({ word, onClose }) {
+  const [entries, setEntries] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+  const audioRef = useRef(null);
 
-const WordDefinitionStatCard = ({ w, onRemove }) => {
-  const [def, setDef] = useState(null);
-  const [loading, setLoading] = useState(false);
-
-  const handleClick = async () => {
-    if (def) { setDef(null); return; }
+  useEffect(() => {
     setLoading(true);
-    const text = await fetchDefinition(w.word);
-    setDef(text);
-    setLoading(false);
-  };
+    setError(false);
+    setEntries(null);
+    fetchWordDefinition(word).then(data => {
+      setLoading(false);
+      if (!data) setError(true);
+      else setEntries(data);
+    });
+  }, [word]);
+
+  const phoneticText = entries ? getPhoneticText(entries) : null;
+  const phoneticAudio = entries ? getPhoneticAudio(entries) : null;
+  const meanings = entries ? getMeanings(entries) : [];
 
   return (
-    <div style={{ background: 'white', borderRadius: 10, padding: '1rem', boxShadow: '0 1px 4px rgba(0,0,0,0.07)', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-      <div style={{ flex: 1, cursor: 'pointer' }} onClick={handleClick}>
-        <p style={{ fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.25rem', display: 'flex', alignItems: 'center', gap: 6 }}>
-          {w.word}
-          {loading ? <span style={{fontSize:'0.7rem', color:'#94a3b8', fontWeight:400}}>...</span> : <span style={{fontSize:'0.7rem', color:'#cbd5e1', fontWeight:400}}>▼ click for def</span>}
-        </p>
-        {def && <p style={{ fontSize: '0.85rem', color: '#64748b', marginTop: 8, background: '#f8fafc', padding: '8px 12px', borderRadius: 6 }}>{def}</p>}
-        {w.definition && !def && <p style={{ fontSize: '0.85rem', color: '#64748b' }}>{w.definition}</p>}
-        <p style={{ fontSize: '0.75rem', color: '#94a3b8', marginTop: '0.5rem' }}>{w.date ? new Date(w.date).toLocaleDateString() : ''}</p>
+    <div style={{ marginTop: '0.75rem', border: '1.5px solid #ede9fe', borderRadius: 10, overflow: 'hidden', background: '#faf5ff' }}>
+      {/* Panel header */}
+      <div style={{ padding: '0.6rem 1rem', background: '#7c3aed', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 7 }}>
+          <BookOpen size={14} color="white" />
+          <span style={{ color: 'white', fontWeight: 700, fontSize: '0.82rem' }}>Free Dictionary</span>
+          {phoneticText && <span style={{ color: '#ddd6fe', fontSize: '0.8rem', fontStyle: 'italic' }}>{phoneticText}</span>}
+          {phoneticAudio && (
+            <>
+              <audio ref={audioRef} src={phoneticAudio} preload="none" />
+              <button onClick={() => audioRef.current?.play().catch(() => {})} title="Play pronunciation" style={{ background: 'rgba(255,255,255,0.18)', border: 'none', borderRadius: '50%', width: 24, height: 24, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}>
+                <Volume2 size={12} color="white" />
+              </button>
+            </>
+          )}
+        </div>
+        {onClose && (
+          <button onClick={onClose} style={{ background: 'rgba(255,255,255,0.18)', border: 'none', borderRadius: '50%', width: 22, height: 22, display: 'flex', alignItems: 'center', justifyContent: 'center', cursor: 'pointer' }}>
+            <X size={12} color="white" />
+          </button>
+        )}
       </div>
-      <button onClick={(e) => { e.stopPropagation(); onRemove(w.word); }} style={{ color: '#cbd5e1', background: 'none', border: 'none', cursor: 'pointer', marginLeft: 8, padding: 4 }}>
-        <X size={16} />
-      </button>
+
+      {/* Panel body */}
+      <div style={{ padding: '0.8rem 1rem', maxHeight: 280, overflowY: 'auto' }}>
+        {loading && (
+          <div style={{ textAlign: 'center', padding: '1rem', color: '#94a3b8' }}>
+            <Loader2 size={18} style={{ animation: 'spin 1s linear infinite', display: 'inline-block' }} />
+          </div>
+        )}
+        {error && <p style={{ fontSize: '0.82rem', color: '#ef4444', textAlign: 'center', padding: '0.5rem' }}>Word not found in dictionary.</p>}
+        {!loading && !error && meanings.map((meaning, mi) => (
+          <div key={mi} style={{ marginBottom: mi < meanings.length - 1 ? '0.9rem' : 0 }}>
+            <span style={{ display: 'inline-block', padding: '1px 8px', borderRadius: 10, background: '#ede9fe', color: '#6d28d9', fontSize: '0.72rem', fontWeight: 700, marginBottom: '0.4rem', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+              {meaning.partOfSpeech}
+            </span>
+            <ol style={{ margin: 0, paddingLeft: '1.2rem' }}>
+              {meaning.definitions.slice(0, 3).map((def, di) => (
+                <li key={di} style={{ marginBottom: '0.4rem' }}>
+                  <p style={{ margin: 0, fontSize: '0.83rem', color: '#1e293b', lineHeight: 1.5 }}>{def.definition}</p>
+                  {def.example && <p style={{ margin: '0.2rem 0 0', fontSize: '0.76rem', color: '#64748b', fontStyle: 'italic' }}>"{def.example}"</p>}
+                </li>
+              ))}
+            </ol>
+            {/* Synonyms */}
+            {(() => {
+              const s = [...(meaning.synonyms || []), ...meaning.definitions.flatMap(d => d.synonyms || [])].slice(0, 5);
+              return s.length ? (
+                <div style={{ marginTop: '0.3rem', display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+                  <span style={{ fontSize: '0.7rem', color: '#94a3b8', fontWeight: 600 }}>syn:</span>
+                  {s.map((x, i) => <span key={i} style={{ padding: '1px 7px', borderRadius: 10, background: '#f0fdf4', color: '#166534', fontSize: '0.7rem' }}>{x}</span>)}
+                </div>
+              ) : null;
+            })()}
+            {/* Antonyms */}
+            {(() => {
+              const a = [...(meaning.antonyms || []), ...meaning.definitions.flatMap(d => d.antonyms || [])].slice(0, 5);
+              return a.length ? (
+                <div style={{ marginTop: '0.25rem', display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+                  <span style={{ fontSize: '0.7rem', color: '#94a3b8', fontWeight: 600 }}>ant:</span>
+                  {a.map((x, i) => <span key={i} style={{ padding: '1px 7px', borderRadius: 10, background: '#fff1f2', color: '#9f1239', fontSize: '0.7rem' }}>{x}</span>)}
+                </div>
+              ) : null;
+            })()}
+            {mi < meanings.length - 1 && <hr style={{ margin: '0.7rem 0 0', border: 'none', borderTop: '1px solid #f1f5f9' }} />}
+          </div>
+        ))}
+      </div>
+
+      <div style={{ padding: '0.35rem 1rem 0.5rem', borderTop: '1px solid #f1f5f9' }}>
+        <a href="https://dictionaryapi.dev" target="_blank" rel="noopener noreferrer" style={{ fontSize: '0.68rem', color: '#7c3aed', fontWeight: 600, textDecoration: 'none' }}>Free Dictionary API</a>
+      </div>
+
+      <style>{`@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}`}</style>
+    </div>
+  );
+}
+
+/** Notebook tab card — shows saved word + expandable dict panel */
+const WordDefinitionStatCard = ({ w, onRemove }) => {
+  const [showDict, setShowDict] = useState(false);
+
+  return (
+    <div style={{ background: 'white', borderRadius: 10, padding: '1rem', boxShadow: '0 1px 4px rgba(0,0,0,0.07)', display: 'flex', flexDirection: 'column' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <div style={{ flex: 1 }}>
+          <p style={{ fontWeight: 700, fontSize: '1.1rem', marginBottom: '0.15rem' }}>{w.word}</p>
+          {w.definition && <p style={{ fontSize: '0.83rem', color: '#64748b', marginBottom: '0.35rem' }}>{w.definition}</p>}
+          <p style={{ fontSize: '0.72rem', color: '#94a3b8' }}>{w.date ? new Date(w.date).toLocaleDateString() : ''}</p>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 6, flexShrink: 0, marginLeft: 8 }}>
+          <button
+            onClick={() => setShowDict(v => !v)}
+            title="Dictionary Lookup"
+            style={{ display: 'flex', alignItems: 'center', gap: 5, padding: '4px 10px', borderRadius: 14, border: '1.5px solid', borderColor: showDict ? '#7c3aed' : '#c4b5fd', background: showDict ? '#7c3aed' : '#f5f3ff', color: showDict ? 'white' : '#6d28d9', fontWeight: 600, fontSize: '0.75rem', cursor: 'pointer' }}
+          >
+            <BookOpen size={12} /> {showDict ? 'Hide' : 'Define'}
+          </button>
+          <button onClick={(e) => { e.stopPropagation(); onRemove(w.word); }} style={{ color: '#cbd5e1', background: 'none', border: 'none', cursor: 'pointer', padding: 4, display: 'flex' }}>
+            <X size={16} />
+          </button>
+        </div>
+      </div>
+      {showDict && <DictPanel word={w.word} onClose={() => setShowDict(false)} />}
+    </div>
+  );
+};
+
+/** Confused Vocab tab card — shows SAT definition + expandable dict panel */
+const VocabConfusedCard = ({ w, onRemove }) => {
+  const [showDict, setShowDict] = useState(false);
+
+  return (
+    <div style={{ background: 'white', borderRadius: 10, padding: '1.25rem', boxShadow: '0 1px 4px rgba(0,0,0,0.07)', display: 'flex', flexDirection: 'column' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+        <div style={{ flex: 1 }}>
+          <p style={{ fontWeight: 700, fontSize: '1.2rem', marginBottom: '0.2rem', fontFamily: 'Georgia, serif' }}>{w.word}</p>
+          {w.partOfSpeech && <p style={{ fontSize: '0.82rem', color: '#94a3b8', fontStyle: 'italic', marginBottom: '0.35rem' }}>{w.partOfSpeech}</p>}
+          {w.definition && <p style={{ fontSize: '0.88rem', color: '#334155', marginBottom: '0.35rem', lineHeight: 1.5 }}>{w.definition}</p>}
+          {w.example && <p style={{ fontSize: '0.82rem', color: '#64748b', fontStyle: 'italic', marginBottom: '0.35rem' }}>"{w.example}"</p>}
+          <p style={{ fontSize: '0.72rem', color: '#cbd5e1', marginTop: '0.25rem' }}>{w.addedDate ? new Date(w.addedDate).toLocaleDateString() : ''}</p>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'flex-start', gap: 6, flexShrink: 0, marginLeft: 8 }}>
+          <button
+            onClick={() => setShowDict(v => !v)}
+            title="Dictionary Lookup"
+            style={{ display: 'flex', alignItems: 'center', gap: 5, padding: '4px 10px', borderRadius: 14, border: '1.5px solid', borderColor: showDict ? '#7c3aed' : '#c4b5fd', background: showDict ? '#7c3aed' : '#f5f3ff', color: showDict ? 'white' : '#6d28d9', fontWeight: 600, fontSize: '0.75rem', cursor: 'pointer' }}
+          >
+            <BookOpen size={12} /> {showDict ? 'Hide' : 'Define'}
+          </button>
+          <button onClick={() => onRemove(w.word)} style={{ color: '#cbd5e1', background: 'none', border: 'none', cursor: 'pointer', padding: 4, display: 'flex' }}>
+            <X size={16} />
+          </button>
+        </div>
+      </div>
+      {showDict && <DictPanel word={w.word} onClose={() => setShowDict(false)} />}
     </div>
   );
 };
@@ -287,20 +411,9 @@ export default function StatsView() {
                 <p style={{ fontSize: '1.25rem' }}>No confused vocab words yet! Mark words as confused in Vocab Mode.</p>
               </div>
             ) : (
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '1rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '1rem' }}>
                 {state.vocabConfusedList.map((w, i) => (
-                  <div key={i} style={{ background: 'white', borderRadius: 10, padding: '1.25rem', boxShadow: '0 1px 4px rgba(0,0,0,0.07)', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
-                    <div>
-                      <p style={{ fontWeight: 700, fontSize: '1.2rem', marginBottom: '0.25rem', fontFamily: 'Georgia, serif' }}>{w.word}</p>
-                      {w.partOfSpeech && <p style={{ fontSize: '0.85rem', color: '#94a3b8', fontStyle: 'italic', marginBottom: '0.5rem' }}>{w.partOfSpeech}</p>}
-                      {w.definition && <p style={{ fontSize: '0.9rem', color: '#334155', marginBottom: '0.5rem' }}>{w.definition}</p>}
-                      {w.example && <p style={{ fontSize: '0.85rem', color: '#64748b', fontStyle: 'italic' }}>"{w.example}"</p>}
-                      <p style={{ fontSize: '0.75rem', color: '#cbd5e1', marginTop: '0.5rem' }}>{w.addedDate ? new Date(w.addedDate).toLocaleDateString() : ''}</p>
-                    </div>
-                    <button onClick={() => removeFromVocabConfused(w.word)} style={{ color: '#cbd5e1', background: 'none', border: 'none', cursor: 'pointer', marginLeft: 8, flexShrink: 0 }}>
-                      <X size={16} />
-                    </button>
-                  </div>
+                  <VocabConfusedCard key={i} w={w} onRemove={removeFromVocabConfused} />
                 ))}
               </div>
             )}

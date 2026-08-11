@@ -11,6 +11,7 @@ export default function HighlightedText({
   onRemoveHighlight,
   onUpdateHighlight,
   onAddToNotebook, // saves to Question Diary
+  underlinedPhrases = [], // phrases to show with underline (from PDF)
   style = {},
   className = '',
   tag: Tag = 'p'
@@ -115,36 +116,77 @@ export default function HighlightedText({
     return () => document.removeEventListener('mousedown', handleOutsideClick);
   }, []);
 
+  // Build a flat list of ranges: underlines + highlights, sorted by start
+  const buildRanges = () => {
+    if (!text) return [];
+    const ranges = [];
+
+    // Add underlined phrase ranges
+    for (const phrase of underlinedPhrases) {
+      if (!phrase || phrase.length < 3) continue;
+      // Try to find phrase in text (fuzzy: ignore extra whitespace)
+      const normalizedText = text.replace(/\s+/g, ' ');
+      const normalizedPhrase = phrase.replace(/\s+/g, ' ').trim();
+      const idx = normalizedText.indexOf(normalizedPhrase);
+      if (idx !== -1) {
+        ranges.push({ type: 'underline', start: idx, end: idx + normalizedPhrase.length, id: 'ul-' + idx });
+      }
+    }
+
+    // Add highlight ranges
+    const sorted = [...blockHighlights].sort((a, b) => (a.startOffset || 0) - (b.startOffset || 0));
+    for (const hl of sorted) {
+      let start = hl.startOffset;
+      let end = hl.endOffset;
+      if (start === undefined || start < 0 || text.substring(start, end) !== hl.text) {
+        start = text.indexOf(hl.text);
+        if (start !== -1) end = start + hl.text.length;
+      }
+      if (start !== -1) {
+        ranges.push({ type: 'highlight', start, end, hl });
+      }
+    }
+
+    return ranges.sort((a, b) => a.start - b.start);
+  };
+
   // Build rendered text nodes
   const renderTextWithHighlights = () => {
     if (!text) return null;
-    if (!blockHighlights || blockHighlights.length === 0) {
-      return text;
-    }
+    const ranges = buildRanges();
+    if (ranges.length === 0) return text;
 
-    const sorted = [...blockHighlights].sort((a, b) => (a.startOffset || 0) - (b.startOffset || 0));
     const nodes = [];
     let lastIdx = 0;
 
-    sorted.forEach((hl, i) => {
-      let start = hl.startOffset;
-      let end = hl.endOffset;
+    for (let i = 0; i < ranges.length; i++) {
+      const r = ranges[i];
+      if (r.start < lastIdx) continue; // skip overlapping
 
-      if (start === undefined || start < 0 || text.substring(start, end) !== hl.text) {
-        start = text.indexOf(hl.text, lastIdx);
-        if (start === -1) start = text.indexOf(hl.text);
-        if (start !== -1) {
-          end = start + hl.text.length;
-        }
+      if (r.start > lastIdx) {
+        nodes.push(text.substring(lastIdx, r.start));
       }
 
-      if (start !== -1 && start >= lastIdx) {
-        if (start > lastIdx) {
-          nodes.push(text.substring(lastIdx, start));
-        }
+      const content = text.substring(r.start, r.end);
 
+      if (r.type === 'underline') {
+        nodes.push(
+          <u
+            key={r.id}
+            style={{
+              textDecorationLine: 'underline',
+              textDecorationStyle: 'solid',
+              textDecorationColor: 'currentColor',
+              textUnderlineOffset: '3px',
+              textDecorationThickness: '1.5px',
+            }}
+          >
+            {content}
+          </u>
+        );
+      } else {
+        const hl = r.hl;
         const isHovered = activePopover?.highlight?.id === hl.id;
-
         nodes.push(
           <mark
             key={hl.id || i}
@@ -162,12 +204,13 @@ export default function HighlightedText({
               borderBottom: '2px solid rgba(0,0,0,0.15)'
             }}
           >
-            {text.substring(start, end) || hl.text}
+            {content || hl.text}
           </mark>
         );
-        lastIdx = end;
       }
-    });
+
+      lastIdx = r.end;
+    }
 
     if (lastIdx < text.length) {
       nodes.push(text.substring(lastIdx));

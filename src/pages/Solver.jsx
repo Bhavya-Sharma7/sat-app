@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import { useApp } from '../store/AppContext';
-import { Bookmark, ChevronUp, BookOpen, X, Eye, EyeOff } from 'lucide-react';
+import { Bookmark, ChevronUp, BookOpen, X, Eye, EyeOff, RotateCcw } from 'lucide-react';
 import { cleanExplanation, splitQuestionText, extractImageStem } from '../utils/textFormatter';
 import HighlightToolbar, { HIGHLIGHT_COLORS } from '../components/HighlightToolbar';
 import HighlightedText from '../components/HighlightedText';
@@ -125,6 +125,15 @@ export default function Solver() {
   const [timerActive, setTimerActive] = useState(true);
   const timerRef = useRef(null);
 
+  // Load underlines data (embedded per-question)
+  const [underlinesMap, setUnderlinesMap] = useState({});
+  useEffect(() => {
+    fetch('/underlines.json')
+      .then(r => r.json())
+      .then(data => setUnderlinesMap(data))
+      .catch(() => {});
+  }, []);
+
   const [activeHighlightColor, setActiveHighlightColor] = useState(HIGHLIGHT_COLORS[0]);
 
   // strikethrough: { [qId]: Set<letter> }
@@ -187,6 +196,9 @@ export default function Solver() {
   }, [currentIndex]);
 
   const qId = pool[currentIndex]?.id;
+
+  // Compute underlined phrases for current question (from PDF extraction)
+  const currentUnderlinedPhrases = qId && underlinesMap[qId] ? [underlinesMap[qId]] : [];
   
   // Load diary text for this question
   useEffect(() => {
@@ -362,10 +374,31 @@ export default function Solver() {
         </div>
 
         {/* Center: Live timer */}
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <span style={{ fontSize: '1.4rem', fontWeight: 700, fontVariantNumeric: 'tabular-nums', letterSpacing: 1, color: effectivelyAnswered ? '#94a3b8' : '#1e293b' }}>
-            {formatTime(timerSeconds)}
-          </span>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <span style={{ fontSize: '1.4rem', fontWeight: 700, fontVariantNumeric: 'tabular-nums', letterSpacing: 1, color: effectivelyAnswered ? '#94a3b8' : '#1e293b' }}>
+              {formatTime(timerSeconds)}
+            </span>
+            {!effectivelyAnswered && (
+              <button
+                onClick={() => {
+                  clearInterval(timerRef.current);
+                  setTimers(prev => ({ ...prev, [qId]: 0 }));
+                  setTimerActive(true);
+                }}
+                title="Reset timer"
+                style={{
+                  background: 'none', border: 'none', cursor: 'pointer',
+                  color: '#94a3b8', padding: 2, display: 'flex', alignItems: 'center',
+                  borderRadius: 4, transition: 'color 0.15s'
+                }}
+                onMouseEnter={e => e.currentTarget.style.color = '#1e293b'}
+                onMouseLeave={e => e.currentTarget.style.color = '#94a3b8'}
+              >
+                <RotateCcw size={13} />
+              </button>
+            )}
+          </div>
           <span style={{ fontSize: '0.65rem', color: '#94a3b8' }}>
             {effectivelyAnswered ? 'Locked' : 'Elapsed'}
           </span>
@@ -411,6 +444,7 @@ export default function Solver() {
                   onRemoveHighlight={(hlId) => removeHighlight(qId, hlId)}
                   onUpdateHighlight={(hlId, updates) => updateHighlight(qId, hlId, updates)}
                   onAddToNotebook={(snippet) => addTextToNotebook(qId, snippet)}
+                  underlinedPhrases={currentUnderlinedPhrases}
                   style={{ marginBottom: '1.2em', lineHeight: 1.9, whiteSpace: 'pre-line' }}
                   tag="p"
                 />
@@ -463,6 +497,7 @@ export default function Solver() {
               onRemoveHighlight={(hlId) => removeHighlight(qId, hlId)}
               onUpdateHighlight={(hlId, updates) => updateHighlight(qId, hlId, updates)}
               onAddToNotebook={(snippet) => addTextToNotebook(qId, snippet)}
+              underlinedPhrases={currentUnderlinedPhrases}
               style={{ fontSize: '1.05rem', fontWeight: 500, marginBottom: '1.5rem', lineHeight: 1.6, color: '#1e293b' }}
               tag="p"
             />

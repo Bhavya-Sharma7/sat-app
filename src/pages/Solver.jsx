@@ -128,7 +128,7 @@ export default function Solver() {
   // Load underlines data (embedded per-question)
   const [underlinesMap, setUnderlinesMap] = useState({});
   useEffect(() => {
-    fetch('/underlines.json')
+    fetch(`${import.meta.env.BASE_URL}underlines.json`)
       .then(r => r.json())
       .then(data => setUnderlinesMap(data))
       .catch(() => {});

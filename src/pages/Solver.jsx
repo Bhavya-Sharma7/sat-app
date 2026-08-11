@@ -383,10 +383,16 @@ export default function Solver() {
             {!effectivelyAnswered && (
               <button
                 onClick={() => {
+                  // Stop any existing interval
                   clearInterval(timerRef.current);
+                  // Reset timer value for current question
                   setTimers(prev => ({ ...prev, [qId]: 0 }));
-                  setTimerActive(true);
+                  // Force timer to restart by toggling active flag off
+                  setTimerActive(false);
+                  // Increment reset counter to ensure effect re‑runs
                   setTimerResetCount(c => c + 1);
+                  // Reactivate timer after a tick
+                  setTimeout(() => setTimerActive(true), 0);
                 }}
                 title="Reset timer"
                 style={{

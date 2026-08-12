@@ -13,7 +13,8 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
 $2`),t.split(/\n\s*\n/).map(e=>e.trim()).filter(Boolean).join(`
 
 `)}function Jr(e){if(!e)return{passage:``,stem:``};let t=e.split(`
-`).map(e=>e.trim()).filter(Boolean);if(t.length===0)return{passage:``,stem:``};if(t.length===1)return{passage:``,stem:t[0]};let n=t.findIndex(e=>/^The student wants to\b/i.test(e)),r,i;n===-1?(r=t[t.length-1],i=t.slice(0,-1)):(r=t.slice(n).join(` `),i=t.slice(0,n));let a=!1,o=-1;for(let e=0;e<i.length;e++){let t=i[e];/poem|lines from|stanza|verse|sonnet|ballad|canto/i.test(t)&&(a=!0,/[.!?"’'\”]$/.test(t)&&(o=e))}i.filter(e=>e.length<95&&/^[A-Z"“\[]/.test(e)).length>=3&&i.length>=4&&(a=!0);let s=``;if(a){let e=!1;for(let t=0;t<i.length;t++){let n=i[t];if(t===0){s=n,(o===0||a&&/[.!?"’'\”]$/.test(n))&&(e=!0);continue}e?/^[”"’]$/.test(n)?s+=n:s+=`
+`).map(e=>e.trim()).filter(Boolean);if(t.length===0)return{passage:``,stem:``};if(t.length===1)return{passage:``,stem:t[0]};let n=t.findIndex(e=>/^The student wants to\b/i.test(e)),r,i;n===-1?(r=t[t.length-1],i=t.slice(0,-1)):(r=t.slice(n).join(` `),i=t.slice(0,n));let a=!1,o=-1;for(let e=0;e<i.length;e++){let t=i[e];/poem|lines from|stanza|verse|sonnet|ballad|canto/i.test(t)&&(a=!0,/[.!?"’'\”]$/.test(t)&&(o=e))}i.filter(e=>e.length<95&&/^[A-Z"“\[]/.test(e)).length>=3&&i.length>=4&&(a=!0);let s=``;if(n!==-1)for(let e=0;e<i.length;e++){let t=i[e];if(e===0){s=t;continue}let n=i[e-1],r=/[.!?'"\u2019\u201d]$/.test(n),a=/^[A-Z\u00C0-\u00FF""]/.test(t);r&&a?s+=`
+`+t:s+=` `+t}else if(a){let e=!1;for(let t=0;t<i.length;t++){let n=i[t];if(t===0){s=n,(o===0||a&&/[.!?"’'\”]$/.test(n))&&(e=!0);continue}e?/^[”"’]$/.test(n)?s+=n:s+=`
 `+n:t<=o||!/[.!?"’'\”]$/.test(i[t-1])?s+=` `+n:(s+=`
 
 `+n,e=!0)}}else for(let e=0;e<i.length;e++){let t=i[e];if(e===0){s=t;continue}let n=i[e-1],r=/[.!?"']$/.test(n),a=/^[A-Z"“]/.test(t);r&&a?s+=`

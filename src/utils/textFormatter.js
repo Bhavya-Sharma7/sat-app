@@ -135,8 +135,8 @@ export function cleanExplanation(raw) {
  * Splits a question's raw text into passage (left pane) and stem (right pane).
  * Cleans artificial soft line breaks inside passage paragraphs while preserving poetry verse lines.
  *
- * Handles Rhetorical Synthesis questions where the question stem is split across
- * multiple lines by PDF soft-wrapping (e.g. "The student wants to ... to\naccomplish this goal?").
+ * Handles Rhetorical Synthesis questions where the question stem ("The student wants to...")
+ * is PDF-wrapped across two lines. We detect that marker and join those lines into one stem.
  */
 export function splitQuestionText(raw) {
   if (!raw) return { passage: '', stem: '' };
@@ -146,30 +146,20 @@ export function splitQuestionText(raw) {
   if (lines.length === 0) return { passage: '', stem: '' };
   if (lines.length === 1) return { passage: '', stem: lines[0] };
 
-  // Walk backwards to collect all lines that belong to the question stem.
-  // A line belongs to the stem if:
-  //   - It ends with "?" (the actual question), OR
-  //   - The PREVIOUS line (further back) does NOT end with sentence-final punctuation,
-  //     meaning that line was itself a mid-sentence wrap and is part of the same question.
-  // We stop collecting as soon as we hit a line that ends with "." "!" or is clearly
-  // a notes/passage line (ends with a period = end of a complete note sentence).
-  let stemLineCount = 1; // always take the last line
-  for (let i = lines.length - 2; i >= 0; i--) {
-    const prevLine = lines[i];
-    // If the previous line does NOT end with sentence-final punctuation, it means
-    // it was soft-wrapped mid-sentence and belongs to the same stem.
-    const endsWithSentenceFinal = /[.!?'"\u2019\u201d]$/.test(prevLine);
-    if (!endsWithSentenceFinal) {
-      stemLineCount++;
-    } else {
-      break;
-    }
+  // For Rhetorical Synthesis questions the stem always begins with
+  // "The student wants to ...". Find that line and join everything
+  // from it to the end as a single stem string.
+  const stemStartIdx = lines.findIndex(l => /^The student wants to\b/i.test(l));
+  let stem;
+  let passageLines;
+  if (stemStartIdx !== -1) {
+    stem = lines.slice(stemStartIdx).join(' ');
+    passageLines = lines.slice(0, stemStartIdx);
+  } else {
+    // All other question types: last line is the stem
+    stem = lines[lines.length - 1];
+    passageLines = lines.slice(0, -1);
   }
-
-  // Build the stem by joining the collected tail lines
-  const stemLines = lines.slice(lines.length - stemLineCount);
-  const stem = stemLines.join(' ');
-  const passageLines = lines.slice(0, lines.length - stemLineCount);
 
   // Check if passage is poetry or has poetry lines
   let isPoemContext = false;

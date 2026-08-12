@@ -182,8 +182,29 @@ export function splitQuestionText(raw) {
   }
 
   let passage = '';
+  const isRhetoricalSynthesis = stemStartIdx !== -1;
 
-  if (!isPoemContext) {
+  if (isRhetoricalSynthesis) {
+    // Rhetorical Synthesis notes reconstruction:
+    // - PDF soft-wrapped lines (prev doesn't end sentence) → join with space
+    // - Complete notes (prev ends sentence, curr starts capital) → single \n separator
+    // Using \n (not \n\n) keeps all notes in one block; whiteSpace:pre-line renders each on its own line.
+    for (let i = 0; i < passageLines.length; i++) {
+      const line = passageLines[i];
+      if (i === 0) { passage = line; continue; }
+      const prev = passageLines[i - 1];
+      const prevEndsSentence = /[.!?'"\u2019\u201d]$/.test(prev);
+      const currStartsUpper = /^[A-Z\u00C0-\u00FF""]/.test(line);
+
+      if (prevEndsSentence && currStartsUpper) {
+        // New note: single line break
+        passage += '\n' + line;
+      } else {
+        // Soft-wrap continuation: join with space
+        passage += ' ' + line;
+      }
+    }
+  } else if (!isPoemContext) {
     // Standard prose reconstruction
     for (let i = 0; i < passageLines.length; i++) {
       const line = passageLines[i];
